@@ -1,0 +1,432 @@
+{
+  "type": "object",
+  "required": [
+    "format",
+    "schemaVersion",
+    "id",
+    "version",
+    "title",
+    "subtitle",
+    "composer",
+    "tuneCredit",
+    "revision",
+    "meter",
+    "key",
+    "voices",
+    "measures",
+    "ties",
+    "tempos",
+    "sections",
+    "cantus",
+    "engraving",
+    "render"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "format": {
+      "const": "composition"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^v[0-9]{3}$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "composer": {
+      "type": "string"
+    },
+    "tuneCredit": {
+      "type": "string"
+    },
+    "revision": {
+      "type": "object",
+      "required": [
+        "label",
+        "localSourceCommit"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "localSourceCommit": {
+          "type": "string"
+        }
+      }
+    },
+    "meter": {
+      "enum": [
+        "3/4"
+      ]
+    },
+    "key": {
+      "enum": [
+        "G"
+      ]
+    },
+    "voices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "color",
+          "clef",
+          "shortName",
+          "program",
+          "pan",
+          "volume",
+          "velocity"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          },
+          "clef": {
+            "type": "string",
+            "enum": [
+              "treble",
+              "bass"
+            ]
+          },
+          "shortName": {
+            "type": "string"
+          },
+          "program": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 127
+          },
+          "pan": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 127
+          },
+          "volume": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 127
+          },
+          "velocity": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 127
+          }
+        }
+      },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "measures": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "pitch",
+              "duration"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "pitch": {
+                "type": "string",
+                "pattern": "^(R|[A-G](#|-|##|--)?[0-9])$"
+              },
+              "duration": {
+                "type": "string",
+                "enum": [
+                  "0.25",
+                  "0.5",
+                  "1.0",
+                  "1.5",
+                  "2.0",
+                  "3.0"
+                ]
+              }
+            }
+          }
+        },
+        "minItems": 4,
+        "maxItems": 4
+      },
+      "minItems": 1
+    },
+    "ties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "voice",
+          "beat"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "voice": {
+            "type": "integer"
+          },
+          "beat": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "tempos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "bar",
+          "bpm"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "bar": {
+            "type": "integer"
+          },
+          "bpm": {
+            "type": "integer",
+            "minimum": 20,
+            "maximum": 300
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "bar",
+          "name"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "bar": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "cantus": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "voice",
+          "start",
+          "end",
+          "label"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "voice": {
+            "type": "integer"
+          },
+          "start": {
+            "type": "integer"
+          },
+          "end": {
+            "type": "integer"
+          },
+          "label": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "engraving": {
+      "type": "object",
+      "required": [
+        "staffSize",
+        "pageBreakAfter",
+        "systemEvery",
+        "paper",
+        "tagline",
+        "tempoText",
+        "fermataFinal"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "staffSize": {
+          "type": "number"
+        },
+        "pageBreakAfter": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "systemEvery": {
+          "type": "integer"
+        },
+        "paper": {
+          "type": "string"
+        },
+        "tagline": {
+          "type": "string"
+        },
+        "tempoText": {
+          "type": "string"
+        },
+        "fermataFinal": {
+          "type": "boolean"
+        }
+      }
+    },
+    "render": {
+      "type": "object",
+      "required": [
+        "soundfont",
+        "soundfontSha256",
+        "gain",
+        "sampleRate",
+        "reverb",
+        "chorus",
+        "articulationMaxBeats",
+        "articulationFraction",
+        "cantusVelocityBoost",
+        "loudnessLUFS",
+        "truePeakDB",
+        "loudnessRange",
+        "fadeDelaySeconds",
+        "fadeSeconds",
+        "mp3Bitrate",
+        "video"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "soundfont": {
+          "type": "string",
+          "pattern": "^assets/[A-Za-z0-9._-]+\\.sf2$"
+        },
+        "soundfontSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "gain": {
+          "type": "number"
+        },
+        "sampleRate": {
+          "type": "integer"
+        },
+        "reverb": {
+          "type": "object",
+          "required": [
+            "room-size",
+            "damp",
+            "width",
+            "level"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "room-size": {
+              "type": "number"
+            },
+            "damp": {
+              "type": "number"
+            },
+            "width": {
+              "type": "integer"
+            },
+            "level": {
+              "type": "number"
+            }
+          }
+        },
+        "chorus": {
+          "type": "boolean"
+        },
+        "articulationMaxBeats": {
+          "type": "number"
+        },
+        "articulationFraction": {
+          "type": "number"
+        },
+        "cantusVelocityBoost": {
+          "type": "integer"
+        },
+        "loudnessLUFS": {
+          "type": "integer"
+        },
+        "truePeakDB": {
+          "type": "number"
+        },
+        "loudnessRange": {
+          "type": "integer"
+        },
+        "fadeDelaySeconds": {
+          "type": "integer"
+        },
+        "fadeSeconds": {
+          "type": "integer"
+        },
+        "mp3Bitrate": {
+          "type": "string"
+        },
+        "video": {
+          "type": "object",
+          "required": [
+            "width",
+            "height",
+            "fps",
+            "windowSeconds",
+            "crf",
+            "audioBitrate"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "width": {
+              "type": "integer"
+            },
+            "height": {
+              "type": "integer"
+            },
+            "fps": {
+              "type": "integer"
+            },
+            "windowSeconds": {
+              "type": "integer"
+            },
+            "crf": {
+              "type": "integer"
+            },
+            "audioBitrate": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "playback": {
+      "type": "object",
+      "description": "Derived cache, regenerated from source; never authoritative."
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://informa-tiger.github.io/compositions/schema/composition.schema.json",
+  "title": "Composition source format v1"
+}

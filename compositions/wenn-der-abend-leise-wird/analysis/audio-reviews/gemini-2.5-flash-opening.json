@@ -1,0 +1,36 @@
+{
+  "model_requested": "gemini-2.5-flash",
+  "model_returned": "gemini-2.5-flash",
+  "timestamp_utc": "2026-09-18T03:43:48.695202+00:00",
+  "source_sha256": "56eac4b5e00413aee458088353f32b3b15fb3e7b315079b7c8c5319cba2cb584",
+  "submitted_audio_sha256": "76c6406b6a9960dd36c28eda9b30f7889f011ff8a932c83e77c66655e040120a",
+  "metadata_removed": true,
+  "prompt": "This is a 20-second audio excerpt. Describe only what is audible: instrument, probable musical style with uncertainty, whether the opening starts with one melodic line or several simultaneous parts, and how the texture changes during these 20 seconds. Do not extrapolate beyond this excerpt. Keep the answer under 250 words. Separate observation from conjecture.",
+  "report": "The audible instrument is a pipe organ. The probable musical style is sacred music, such as a hymn or chorale, or classical organ music, given its harmonic language and melodic character.\n\nThe opening starts with several simultaneous parts, forming a rich, sustained chord rather than a single melodic line. Throughout the 20-second excerpt, the texture remains consistently full, characterized by multiple simultaneous voices creating sustained harmonies. There are no dramatic changes in the number of parts or overall density; the music maintains a steady, homophonic or polyphonic texture. Dynamics appear relatively stable, possibly with a subtle increase in fullness towards the end.",
+  "usage": {
+    "promptTokenCount": 572,
+    "candidatesTokenCount": 127,
+    "totalTokenCount": 1525,
+    "trafficType": "ON_DEMAND",
+    "promptTokensDetails": [
+      {
+        "modality": "AUDIO",
+        "tokenCount": 500
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 72
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 127
+      }
+    ],
+    "thoughtsTokenCount": 826
+  },
+  "finish_reasons": [
+    "STOP"
+  ]
+}

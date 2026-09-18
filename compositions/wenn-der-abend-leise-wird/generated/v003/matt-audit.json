@@ -1,0 +1,3248 @@
+{
+  "passed": false,
+  "checks": {
+    "schema_valid": true,
+    "events_well_formed": true,
+    "instantaneous_direct": false,
+    "instantaneous_parallel": true,
+    "instantaneous_battuta": false,
+    "pulse_direct": false,
+    "pulse_parallel": true,
+    "pulse_battuta": false,
+    "stagger_direct": false,
+    "stagger_parallel": true,
+    "stagger_battuta": false,
+    "no_crossing": true,
+    "ranges": true,
+    "allowed_pitch_classes": false,
+    "no_melodic_tritone": false,
+    "licensed_harmonic_tritones": false,
+    "rhythmic_independence": true,
+    "max_leaps": false,
+    "adjacent_voice_overlap": true
+  },
+  "errors": [
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        27,
+        28
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "sb",
+      "ticks": [
+        37,
+        38
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "st",
+      "ticks": [
+        41,
+        42
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        66,
+        54
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        41,
+        42
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        43,
+        44
+      ],
+      "from_pitches": [
+        66,
+        62
+      ],
+      "to_pitches": [
+        64,
+        57
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        47,
+        48
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        53,
+        54
+      ],
+      "from_pitches": [
+        60,
+        45
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        63,
+        64
+      ],
+      "from_pitches": [
+        60,
+        47
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        65,
+        66
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        65,
+        66
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "tb",
+      "ticks": [
+        66,
+        67
+      ],
+      "from_pitches": [
+        59,
+        43
+      ],
+      "to_pitches": [
+        57,
+        45
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        73,
+        74
+      ],
+      "from_pitches": [
+        60,
+        55
+      ],
+      "to_pitches": [
+        59,
+        52
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        75,
+        76
+      ],
+      "from_pitches": [
+        67,
+        40
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        77,
+        78
+      ],
+      "from_pitches": [
+        60,
+        52
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        83,
+        84
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        87,
+        88
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        89,
+        90
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        89,
+        90
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        95,
+        96
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "sb",
+      "ticks": [
+        97,
+        98
+      ],
+      "from_pitches": [
+        74,
+        43
+      ],
+      "to_pitches": [
+        71,
+        47
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        99,
+        100
+      ],
+      "from_pitches": [
+        62,
+        47
+      ],
+      "to_pitches": [
+        57,
+        38
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        102,
+        103
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        107,
+        108
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "tb",
+      "ticks": [
+        107,
+        108
+      ],
+      "from_pitches": [
+        57,
+        38
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "st",
+      "ticks": [
+        113,
+        114
+      ],
+      "from_pitches": [
+        71,
+        55
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "sb",
+      "ticks": [
+        117,
+        118
+      ],
+      "from_pitches": [
+        69,
+        45
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        119,
+        120
+      ],
+      "from_pitches": [
+        62,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        123,
+        124
+      ],
+      "from_pitches": [
+        67,
+        40
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        125,
+        126
+      ],
+      "from_pitches": [
+        60,
+        52
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        135,
+        136
+      ],
+      "from_pitches": [
+        60,
+        47
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        137,
+        138
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        137,
+        138
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        145,
+        146
+      ],
+      "from_pitches": [
+        62,
+        43
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        149,
+        150
+      ],
+      "from_pitches": [
+        62,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sb",
+      "ticks": [
+        159,
+        160
+      ],
+      "from_pitches": [
+        67,
+        43
+      ],
+      "to_pitches": [
+        69,
+        50
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        161,
+        162
+      ],
+      "from_pitches": [
+        62,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        173,
+        174
+      ],
+      "from_pitches": [
+        63,
+        47
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        175,
+        176
+      ],
+      "from_pitches": [
+        67,
+        62
+      ],
+      "to_pitches": [
+        71,
+        64
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        177,
+        178
+      ],
+      "from_pitches": [
+        66,
+        60
+      ],
+      "to_pitches": [
+        64,
+        57
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        185,
+        186
+      ],
+      "from_pitches": [
+        63,
+        47
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        187,
+        188
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        197,
+        198
+      ],
+      "from_pitches": [
+        66,
+        57
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "tb",
+      "ticks": [
+        197,
+        198
+      ],
+      "from_pitches": [
+        57,
+        38
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "sb",
+      "ticks": [
+        199,
+        200
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        203,
+        204
+      ],
+      "from_pitches": [
+        62,
+        38
+      ],
+      "to_pitches": [
+        60,
+        48
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        207,
+        208
+      ],
+      "from_pitches": [
+        55,
+        52
+      ],
+      "to_pitches": [
+        52,
+        45
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "st",
+      "ticks": [
+        209,
+        210
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        66,
+        54
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "sb",
+      "ticks": [
+        211,
+        212
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        64,
+        40
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        213,
+        214
+      ],
+      "from_pitches": [
+        55,
+        40
+      ],
+      "to_pitches": [
+        50,
+        38
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        215,
+        216
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        219,
+        220
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        38
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        221,
+        222
+      ],
+      "from_pitches": [
+        66,
+        57
+      ],
+      "to_pitches": [
+        71,
+        59
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        231,
+        232
+      ],
+      "from_pitches": [
+        64,
+        40
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        233,
+        234
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        237,
+        238
+      ],
+      "from_pitches": [
+        62,
+        43
+      ],
+      "to_pitches": [
+        59,
+        47
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        239,
+        240
+      ],
+      "from_pitches": [
+        67,
+        59
+      ],
+      "to_pitches": [
+        71,
+        64
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        243,
+        244
+      ],
+      "from_pitches": [
+        55,
+        40
+      ],
+      "to_pitches": [
+        57,
+        45
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        245,
+        246
+      ],
+      "from_pitches": [
+        72,
+        64
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        255,
+        256
+      ],
+      "from_pitches": [
+        64,
+        40
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        257,
+        258
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "st",
+      "ticks": [
+        261,
+        262
+      ],
+      "from_pitches": [
+        67,
+        55
+      ],
+      "to_pitches": [
+        69,
+        62
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        263,
+        264
+      ],
+      "from_pitches": [
+        71,
+        38
+      ],
+      "to_pitches": [
+        72,
+        48
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        263,
+        264
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        48
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        265,
+        266
+      ],
+      "from_pitches": [
+        72,
+        67
+      ],
+      "to_pitches": [
+        71,
+        64
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        269,
+        270
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "instantaneous_battuta",
+      "voices": "st",
+      "ticks": [
+        275,
+        276
+      ],
+      "from_pitches": [
+        69,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        275,
+        276
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        281,
+        282
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        26,
+        28
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        30,
+        32
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "sb",
+      "ticks": [
+        36,
+        38
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        40,
+        42
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        66,
+        54
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        40,
+        42
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        42,
+        44
+      ],
+      "from_pitches": [
+        66,
+        62
+      ],
+      "to_pitches": [
+        64,
+        57
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        46,
+        48
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        52,
+        54
+      ],
+      "from_pitches": [
+        60,
+        45
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        64,
+        66
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        64,
+        66
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        74,
+        76
+      ],
+      "from_pitches": [
+        67,
+        40
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        76,
+        78
+      ],
+      "from_pitches": [
+        60,
+        52
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        80,
+        82
+      ],
+      "from_pitches": [
+        54,
+        45
+      ],
+      "to_pitches": [
+        55,
+        48
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        82,
+        84
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        86,
+        88
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        88,
+        90
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        88,
+        90
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        94,
+        96
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "sb",
+      "ticks": [
+        96,
+        98
+      ],
+      "from_pitches": [
+        74,
+        43
+      ],
+      "to_pitches": [
+        71,
+        47
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        98,
+        100
+      ],
+      "from_pitches": [
+        62,
+        47
+      ],
+      "to_pitches": [
+        57,
+        38
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "at",
+      "ticks": [
+        102,
+        104
+      ],
+      "from_pitches": [
+        66,
+        57
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        106,
+        108
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "tb",
+      "ticks": [
+        106,
+        108
+      ],
+      "from_pitches": [
+        57,
+        38
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        112,
+        114
+      ],
+      "from_pitches": [
+        71,
+        55
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "sb",
+      "ticks": [
+        116,
+        118
+      ],
+      "from_pitches": [
+        69,
+        45
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        118,
+        120
+      ],
+      "from_pitches": [
+        62,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        122,
+        124
+      ],
+      "from_pitches": [
+        67,
+        40
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        124,
+        126
+      ],
+      "from_pitches": [
+        60,
+        52
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        126,
+        128
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        136,
+        138
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        136,
+        138
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        142,
+        144
+      ],
+      "from_pitches": [
+        72,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        144,
+        146
+      ],
+      "from_pitches": [
+        62,
+        43
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        148,
+        150
+      ],
+      "from_pitches": [
+        69,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        148,
+        150
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        160,
+        162
+      ],
+      "from_pitches": [
+        69,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        160,
+        162
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        172,
+        174
+      ],
+      "from_pitches": [
+        63,
+        47
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        184,
+        186
+      ],
+      "from_pitches": [
+        63,
+        47
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        186,
+        188
+      ],
+      "from_pitches": [
+        64,
+        52
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        194,
+        196
+      ],
+      "from_pitches": [
+        59,
+        48
+      ],
+      "to_pitches": [
+        57,
+        38
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        196,
+        198
+      ],
+      "from_pitches": [
+        66,
+        57
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "tb",
+      "ticks": [
+        196,
+        198
+      ],
+      "from_pitches": [
+        57,
+        38
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "sb",
+      "ticks": [
+        198,
+        200
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        202,
+        204
+      ],
+      "from_pitches": [
+        62,
+        38
+      ],
+      "to_pitches": [
+        60,
+        48
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        206,
+        208
+      ],
+      "from_pitches": [
+        55,
+        52
+      ],
+      "to_pitches": [
+        52,
+        45
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        208,
+        210
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        66,
+        54
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "sb",
+      "ticks": [
+        210,
+        212
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        64,
+        40
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        212,
+        214
+      ],
+      "from_pitches": [
+        55,
+        40
+      ],
+      "to_pitches": [
+        50,
+        38
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        214,
+        216
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        218,
+        220
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        38
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        220,
+        222
+      ],
+      "from_pitches": [
+        66,
+        57
+      ],
+      "to_pitches": [
+        71,
+        59
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        222,
+        224
+      ],
+      "from_pitches": [
+        59,
+        43
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        230,
+        232
+      ],
+      "from_pitches": [
+        66,
+        40
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        232,
+        234
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        236,
+        238
+      ],
+      "from_pitches": [
+        64,
+        43
+      ],
+      "to_pitches": [
+        59,
+        47
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        238,
+        240
+      ],
+      "from_pitches": [
+        67,
+        59
+      ],
+      "to_pitches": [
+        71,
+        64
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        242,
+        244
+      ],
+      "from_pitches": [
+        55,
+        40
+      ],
+      "to_pitches": [
+        57,
+        45
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        244,
+        246
+      ],
+      "from_pitches": [
+        72,
+        64
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        246,
+        248
+      ],
+      "from_pitches": [
+        59,
+        43
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        254,
+        256
+      ],
+      "from_pitches": [
+        66,
+        40
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        256,
+        258
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "st",
+      "ticks": [
+        260,
+        262
+      ],
+      "from_pitches": [
+        67,
+        55
+      ],
+      "to_pitches": [
+        69,
+        62
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        262,
+        264
+      ],
+      "from_pitches": [
+        69,
+        38
+      ],
+      "to_pitches": [
+        72,
+        48
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        262,
+        264
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        48
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        264,
+        266
+      ],
+      "from_pitches": [
+        72,
+        67
+      ],
+      "to_pitches": [
+        71,
+        64
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        268,
+        270
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        274,
+        276
+      ],
+      "from_pitches": [
+        69,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        274,
+        276
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        280,
+        282
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        30,
+        31,
+        32
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        70,
+        72,
+        73
+      ],
+      "from_pitches": [
+        62,
+        59
+      ],
+      "to_pitches": [
+        67,
+        60
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        126,
+        127,
+        128
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    {
+      "check": "stagger_battuta",
+      "voices": "st",
+      "ticks": [
+        83,
+        84,
+        85
+      ],
+      "from_pitches": [
+        72,
+        55
+      ],
+      "to_pitches": [
+        71,
+        59
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        54,
+        55,
+        58
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        74,
+        50
+      ]
+    },
+    {
+      "check": "stagger_battuta",
+      "voices": "sb",
+      "ticks": [
+        80,
+        82,
+        83
+      ],
+      "from_pitches": [
+        74,
+        45
+      ],
+      "to_pitches": [
+        72,
+        48
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        126,
+        127,
+        130
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        74,
+        50
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        152,
+        154,
+        155
+      ],
+      "from_pitches": [
+        67,
+        40
+      ],
+      "to_pitches": [
+        71,
+        47
+      ]
+    },
+    {
+      "check": "stagger_battuta",
+      "voices": "ab",
+      "ticks": [
+        67,
+        68,
+        70
+      ],
+      "from_pitches": [
+        62,
+        45
+      ],
+      "to_pitches": [
+        59,
+        47
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        68,
+        70,
+        72
+      ],
+      "from_pitches": [
+        62,
+        47
+      ],
+      "to_pitches": [
+        59,
+        40
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        70,
+        72,
+        74
+      ],
+      "from_pitches": [
+        55,
+        47
+      ],
+      "to_pitches": [
+        52,
+        40
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        194,
+        195,
+        196
+      ],
+      "from_pitches": [
+        59,
+        48
+      ],
+      "to_pitches": [
+        57,
+        38
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        222,
+        223,
+        224
+      ],
+      "from_pitches": [
+        59,
+        43
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        246,
+        247,
+        248
+      ],
+      "from_pitches": [
+        59,
+        43
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 35,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        72,
+        66,
+        57,
+        0
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 59,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        72,
+        66,
+        57,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 63,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        71,
+        66,
+        60,
+        47
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 107,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        72,
+        66,
+        57,
+        38
+      ]
+    },
+    {
+      "check": "allowed_pitch_classes",
+      "tick": 116,
+      "voice": "a",
+      "pitch": 61
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 116,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        61,
+        55,
+        45
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 118,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        62,
+        60,
+        54,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 119,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        62,
+        60,
+        54,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 131,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        72,
+        66,
+        57,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 135,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        71,
+        66,
+        60,
+        47
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 148,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        60,
+        54,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 149,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        62,
+        60,
+        54,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 160,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        60,
+        54,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 161,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        62,
+        60,
+        54,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 169,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        60,
+        55,
+        52
+      ]
+    },
+    {
+      "check": "allowed_pitch_classes",
+      "tick": 172,
+      "voice": "a",
+      "pitch": 63
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 172,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        63,
+        57,
+        47
+      ]
+    },
+    {
+      "check": "allowed_pitch_classes",
+      "tick": 173,
+      "voice": "a",
+      "pitch": 63
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 173,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        63,
+        57,
+        47
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 177,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        66,
+        60,
+        45
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 179,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        64,
+        57,
+        48
+      ]
+    },
+    {
+      "check": "allowed_pitch_classes",
+      "tick": 184,
+      "voice": "a",
+      "pitch": 63
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 184,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        63,
+        57,
+        47
+      ]
+    },
+    {
+      "check": "allowed_pitch_classes",
+      "tick": 185,
+      "voice": "a",
+      "pitch": 63
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 185,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        63,
+        57,
+        47
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 205,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        60,
+        55,
+        48
+      ]
+    },
+    {
+      "check": "allowed_pitch_classes",
+      "tick": 208,
+      "voice": "a",
+      "pitch": 61
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 208,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        67,
+        61,
+        52,
+        45
+      ]
+    },
+    {
+      "check": "allowed_pitch_classes",
+      "tick": 209,
+      "voice": "a",
+      "pitch": 61
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 209,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        67,
+        61,
+        52,
+        45
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 214,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        60,
+        50,
+        38
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 215,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        60,
+        50,
+        38
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 227,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        66,
+        60,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 251,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        66,
+        60,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 274,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        60,
+        54,
+        50
+      ]
+    },
+    {
+      "check": "licensed_harmonic_tritones",
+      "tick": 275,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        60,
+        54,
+        50
+      ]
+    },
+    {
+      "check": "no_melodic_tritone",
+      "voice": "s",
+      "tick": 143,
+      "semitones": -6
+    },
+    {
+      "check": "max_leaps",
+      "voice": "s",
+      "tick": 192,
+      "semitones": 9
+    }
+  ],
+  "scope": {
+    "formal_rule_subset": [
+      "events_well_formed",
+      "instantaneous_direct",
+      "instantaneous_parallel",
+      "instantaneous_battuta",
+      "pulse_direct",
+      "pulse_parallel",
+      "pulse_battuta",
+      "stagger_direct",
+      "stagger_parallel",
+      "stagger_battuta",
+      "no_crossing",
+      "ranges",
+      "allowed_pitch_classes",
+      "no_melodic_tritone",
+      "licensed_harmonic_tritones",
+      "rhythmic_independence"
+    ],
+    "python_only": [
+      "max_leaps",
+      "adjacent_voice_overlap"
+    ],
+    "limitations": [
+      "This is an explicit strict policy, not universal Bach/Fux correctness.",
+      "Pitch classes have no diatonic spelling; not all dissonances or nonchord tones are classified.",
+      "Independence counts changed-note onsets inside another voice's held notes; it does not establish thematic or aesthetic independence.",
+      "Passing this Python audit is not itself a Lean proof; compile the generated certificate separately."
+    ]
+  },
+  "total_ticks": 288,
+  "pulse_ticks": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92,
+    94,
+    96,
+    98,
+    100,
+    102,
+    104,
+    106,
+    108,
+    110,
+    112,
+    114,
+    116,
+    118,
+    120,
+    122,
+    124,
+    126,
+    128,
+    130,
+    132,
+    134,
+    136,
+    138,
+    140,
+    142,
+    144,
+    146,
+    148,
+    150,
+    152,
+    154,
+    156,
+    158,
+    160,
+    162,
+    164,
+    166,
+    168,
+    170,
+    172,
+    174,
+    176,
+    178,
+    180,
+    182,
+    184,
+    186,
+    188,
+    190,
+    192,
+    194,
+    196,
+    198,
+    200,
+    202,
+    204,
+    206,
+    208,
+    210,
+    212,
+    214,
+    216,
+    218,
+    220,
+    222,
+    224,
+    226,
+    228,
+    230,
+    232,
+    234,
+    236,
+    238,
+    240,
+    242,
+    244,
+    246,
+    248,
+    250,
+    252,
+    254,
+    256,
+    258,
+    260,
+    262,
+    264,
+    266,
+    268,
+    270,
+    272,
+    274,
+    276,
+    278,
+    280,
+    282,
+    284,
+    286
+  ],
+  "stagger_windows_checked": 86,
+  "harmonic_tritone_ticks": [
+    35,
+    59,
+    63,
+    107,
+    116,
+    118,
+    119,
+    131,
+    135,
+    148,
+    149,
+    160,
+    161,
+    169,
+    172,
+    173,
+    177,
+    179,
+    184,
+    185,
+    205,
+    208,
+    209,
+    214,
+    215,
+    227,
+    251,
+    274,
+    275
+  ],
+  "tritone_resolution_witnesses": [],
+  "independence_matrix": [
+    [
+      0,
+      44,
+      44,
+      39
+    ],
+    [
+      25,
+      0,
+      32,
+      23
+    ],
+    [
+      30,
+      36,
+      0,
+      27
+    ],
+    [
+      15,
+      15,
+      16,
+      0
+    ]
+  ],
+  "rhythm": {
+    "s": {
+      "notes": 145,
+      "rest_ticks": 24,
+      "pitch_changes": 126,
+      "largest_contiguous_leap": 9,
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        12
+      ]
+    },
+    "a": {
+      "notes": 129,
+      "rest_ticks": 12,
+      "pitch_changes": 119,
+      "largest_contiguous_leap": 7,
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ]
+    },
+    "t": {
+      "notes": 140,
+      "rest_ticks": 0,
+      "pitch_changes": 127,
+      "largest_contiguous_leap": 7,
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ]
+    },
+    "b": {
+      "notes": 109,
+      "rest_ticks": 36,
+      "pitch_changes": 101,
+      "largest_contiguous_leap": 12,
+      "durations": [
+        1,
+        2,
+        4,
+        6
+      ]
+    }
+  }
+}

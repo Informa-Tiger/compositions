@@ -1,0 +1,25 @@
+Compiler executable normalized to `lean` for portability; tested version 4.34.0.
+
+$ python3 certify.py examples/study_c_major_score.json --out examples/StudyCMajor.lean --check --lean lean
+'Certificate.config_valid' does not depend on any axioms
+'Certificate.accepted' does not depend on any axioms
+Lean verified examples/StudyCMajor.lean
+Exit status: 0
+
+$ python3 certify.py examples/study_d_major_score.json --out examples/StudyDMajor.lean --check --lean lean
+'Certificate.config_valid' does not depend on any axioms
+'Certificate.accepted' does not depend on any axioms
+Lean verified examples/StudyDMajor.lean
+Exit status: 0
+
+$ python3 certify.py examples/study_a_minor_score.json --out examples/StudyAMinor.lean --check --lean lean
+'Certificate.config_valid' does not depend on any axioms
+'Certificate.accepted' does not depend on any axioms
+Lean verified examples/StudyAMinor.lean
+Exit status: 0
+
+$ python3 certify.py examples/cadence_c_major_score.json --out examples/CadenceCMajor.lean --check --lean lean
+'Certificate.config_valid' does not depend on any axioms
+'Certificate.accepted' does not depend on any axioms
+Lean verified examples/CadenceCMajor.lean
+Exit status: 0

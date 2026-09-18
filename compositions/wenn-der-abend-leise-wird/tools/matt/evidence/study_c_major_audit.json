@@ -1,0 +1,146 @@
+{
+  "passed": true,
+  "checks": {
+    "schema_valid": true,
+    "events_well_formed": true,
+    "instantaneous_direct": true,
+    "instantaneous_parallel": true,
+    "instantaneous_battuta": true,
+    "pulse_direct": true,
+    "pulse_parallel": true,
+    "pulse_battuta": true,
+    "stagger_direct": true,
+    "stagger_parallel": true,
+    "stagger_battuta": true,
+    "no_crossing": true,
+    "ranges": true,
+    "allowed_pitch_classes": true,
+    "no_melodic_tritone": true,
+    "licensed_harmonic_tritones": true,
+    "rhythmic_independence": true,
+    "max_leaps": true,
+    "adjacent_voice_overlap": true
+  },
+  "errors": [],
+  "scope": {
+    "formal_rule_subset": [
+      "events_well_formed",
+      "instantaneous_direct",
+      "instantaneous_parallel",
+      "instantaneous_battuta",
+      "pulse_direct",
+      "pulse_parallel",
+      "pulse_battuta",
+      "stagger_direct",
+      "stagger_parallel",
+      "stagger_battuta",
+      "no_crossing",
+      "ranges",
+      "allowed_pitch_classes",
+      "no_melodic_tritone",
+      "licensed_harmonic_tritones",
+      "rhythmic_independence"
+    ],
+    "python_only": [
+      "max_leaps",
+      "adjacent_voice_overlap"
+    ],
+    "limitations": [
+      "This is an explicit strict policy, not universal Bach/Fux correctness.",
+      "Pitch classes have no diatonic spelling; not all dissonances or nonchord tones are classified.",
+      "Independence counts changed-note onsets inside another voice's held notes; it does not establish thematic or aesthetic independence.",
+      "Passing this Python audit is not itself a Lean proof; compile the generated certificate separately."
+    ]
+  },
+  "total_ticks": 24,
+  "pulse_ticks": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22
+  ],
+  "stagger_windows_checked": 16,
+  "harmonic_tritone_ticks": [],
+  "tritone_resolution_witnesses": [],
+  "independence_matrix": [
+    [
+      0,
+      4,
+      3,
+      0
+    ],
+    [
+      7,
+      0,
+      6,
+      4
+    ],
+    [
+      4,
+      5,
+      0,
+      2
+    ],
+    [
+      4,
+      6,
+      5,
+      0
+    ]
+  ],
+  "rhythm": {
+    "s": {
+      "notes": 6,
+      "rest_ticks": 0,
+      "pitch_changes": 4,
+      "largest_contiguous_leap": 2,
+      "durations": [
+        4
+      ]
+    },
+    "a": {
+      "notes": 8,
+      "rest_ticks": 0,
+      "pitch_changes": 7,
+      "largest_contiguous_leap": 3,
+      "durations": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    "t": {
+      "notes": 7,
+      "rest_ticks": 0,
+      "pitch_changes": 6,
+      "largest_contiguous_leap": 4,
+      "durations": [
+        1,
+        2,
+        3,
+        4,
+        10
+      ]
+    },
+    "b": {
+      "notes": 10,
+      "rest_ticks": 0,
+      "pitch_changes": 9,
+      "largest_contiguous_leap": 5,
+      "durations": [
+        1,
+        2,
+        4
+      ]
+    }
+  }
+}

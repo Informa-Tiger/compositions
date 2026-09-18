@@ -1,0 +1,50 @@
+{
+  "study_c_major": {
+    "audit_passed": true,
+    "certificate_matches_notes": true,
+    "midi_exact_event_match": true,
+    "note_counts": {
+      "s": 6,
+      "a": 8,
+      "t": 7,
+      "b": 10
+    },
+    "reader": "music21.MidiFile"
+  },
+  "study_d_major": {
+    "audit_passed": true,
+    "certificate_matches_notes": true,
+    "midi_exact_event_match": true,
+    "note_counts": {
+      "s": 6,
+      "a": 8,
+      "t": 7,
+      "b": 10
+    },
+    "reader": "music21.MidiFile"
+  },
+  "study_a_minor": {
+    "audit_passed": true,
+    "certificate_matches_notes": true,
+    "midi_exact_event_match": true,
+    "note_counts": {
+      "s": 6,
+      "a": 8,
+      "t": 7,
+      "b": 9
+    },
+    "reader": "music21.MidiFile"
+  },
+  "cadence_c_major": {
+    "audit_passed": true,
+    "certificate_matches_notes": true,
+    "midi_exact_event_match": true,
+    "note_counts": {
+      "s": 2,
+      "a": 2,
+      "t": 1,
+      "b": 2
+    },
+    "reader": "music21.MidiFile"
+  }
+}

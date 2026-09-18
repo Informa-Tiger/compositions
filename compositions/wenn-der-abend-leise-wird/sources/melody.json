@@ -1,0 +1,502 @@
+{
+  "title": "Es wird scho glei dumpa",
+  "credit": "Anton Reidinger (1839\u20131912)",
+  "events": [
+    {
+      "midi": 62,
+      "pitch": "D4",
+      "duration_eighths": 2,
+      "onset_eighths": 0,
+      "measure": 0,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 2,
+      "onset_eighths": 2,
+      "measure": 1,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 2,
+      "onset_eighths": 4,
+      "measure": 1,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 69,
+      "pitch": "A4",
+      "duration_eighths": 2,
+      "onset_eighths": 6,
+      "measure": 1,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 1,
+      "onset_eighths": 8,
+      "measure": 2,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 1,
+      "onset_eighths": 9,
+      "measure": 2,
+      "offset_in_measure_eighths": 1
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 3,
+      "onset_eighths": 10,
+      "measure": 2,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 72,
+      "pitch": "C5",
+      "duration_eighths": 1,
+      "onset_eighths": 13,
+      "measure": 2,
+      "offset_in_measure_eighths": 5
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 2,
+      "onset_eighths": 14,
+      "measure": 3,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 2,
+      "onset_eighths": 16,
+      "measure": 3,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 69,
+      "pitch": "A4",
+      "duration_eighths": 2,
+      "onset_eighths": 18,
+      "measure": 3,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 4,
+      "onset_eighths": 20,
+      "measure": 4,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 62,
+      "pitch": "D4",
+      "duration_eighths": 2,
+      "onset_eighths": 24,
+      "measure": 4,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 2,
+      "onset_eighths": 26,
+      "measure": 5,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 2,
+      "onset_eighths": 28,
+      "measure": 5,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 69,
+      "pitch": "A4",
+      "duration_eighths": 2,
+      "onset_eighths": 30,
+      "measure": 5,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 1,
+      "onset_eighths": 32,
+      "measure": 6,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 1,
+      "onset_eighths": 33,
+      "measure": 6,
+      "offset_in_measure_eighths": 1
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 3,
+      "onset_eighths": 34,
+      "measure": 6,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 72,
+      "pitch": "C5",
+      "duration_eighths": 1,
+      "onset_eighths": 37,
+      "measure": 6,
+      "offset_in_measure_eighths": 5
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 2,
+      "onset_eighths": 38,
+      "measure": 7,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 2,
+      "onset_eighths": 40,
+      "measure": 7,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 69,
+      "pitch": "A4",
+      "duration_eighths": 2,
+      "onset_eighths": 42,
+      "measure": 7,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 4,
+      "onset_eighths": 44,
+      "measure": 8,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 2,
+      "onset_eighths": 48,
+      "measure": 8,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 2,
+      "onset_eighths": 50,
+      "measure": 9,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 2,
+      "onset_eighths": 52,
+      "measure": 9,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 2,
+      "onset_eighths": 54,
+      "measure": 9,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 1,
+      "onset_eighths": 56,
+      "measure": 10,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 72,
+      "pitch": "C5",
+      "duration_eighths": 1,
+      "onset_eighths": 57,
+      "measure": 10,
+      "offset_in_measure_eighths": 1
+    },
+    {
+      "midi": 69,
+      "pitch": "A4",
+      "duration_eighths": 3,
+      "onset_eighths": 58,
+      "measure": 10,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 72,
+      "pitch": "C5",
+      "duration_eighths": 1,
+      "onset_eighths": 61,
+      "measure": 10,
+      "offset_in_measure_eighths": 5
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 2,
+      "onset_eighths": 62,
+      "measure": 11,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 2,
+      "onset_eighths": 64,
+      "measure": 11,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 2,
+      "onset_eighths": 66,
+      "measure": 11,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 69,
+      "pitch": "A4",
+      "duration_eighths": 4,
+      "onset_eighths": 68,
+      "measure": 12,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 62,
+      "pitch": "D4",
+      "duration_eighths": 2,
+      "onset_eighths": 72,
+      "measure": 12,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 2,
+      "onset_eighths": 74,
+      "measure": 13,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 2,
+      "onset_eighths": 76,
+      "measure": 13,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 69,
+      "pitch": "A4",
+      "duration_eighths": 2,
+      "onset_eighths": 78,
+      "measure": 13,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 1,
+      "onset_eighths": 80,
+      "measure": 14,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 1,
+      "onset_eighths": 81,
+      "measure": 14,
+      "offset_in_measure_eighths": 1
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 3,
+      "onset_eighths": 82,
+      "measure": 14,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 72,
+      "pitch": "C5",
+      "duration_eighths": 1,
+      "onset_eighths": 85,
+      "measure": 14,
+      "offset_in_measure_eighths": 5
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 2,
+      "onset_eighths": 86,
+      "measure": 15,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 2,
+      "onset_eighths": 88,
+      "measure": 15,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 69,
+      "pitch": "A4",
+      "duration_eighths": 2,
+      "onset_eighths": 90,
+      "measure": 15,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 4,
+      "onset_eighths": 92,
+      "measure": 16,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 72,
+      "pitch": "C5",
+      "duration_eighths": 1,
+      "onset_eighths": 96,
+      "measure": 16,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 66,
+      "pitch": "F#4",
+      "duration_eighths": 1,
+      "onset_eighths": 97,
+      "measure": 16,
+      "offset_in_measure_eighths": 5
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 4,
+      "onset_eighths": 98,
+      "measure": 17,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 69,
+      "pitch": "A4",
+      "duration_eighths": 1,
+      "onset_eighths": 102,
+      "measure": 17,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 62,
+      "pitch": "D4",
+      "duration_eighths": 1,
+      "onset_eighths": 103,
+      "measure": 17,
+      "offset_in_measure_eighths": 5
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 4,
+      "onset_eighths": 104,
+      "measure": 18,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 1,
+      "onset_eighths": 108,
+      "measure": 18,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 1,
+      "onset_eighths": 109,
+      "measure": 18,
+      "offset_in_measure_eighths": 5
+    },
+    {
+      "midi": 74,
+      "pitch": "D5",
+      "duration_eighths": 2,
+      "onset_eighths": 110,
+      "measure": 19,
+      "offset_in_measure_eighths": 0
+    },
+    {
+      "midi": 71,
+      "pitch": "B4",
+      "duration_eighths": 1,
+      "onset_eighths": 112,
+      "measure": 19,
+      "offset_in_measure_eighths": 2
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 1,
+      "onset_eighths": 113,
+      "measure": 19,
+      "offset_in_measure_eighths": 3
+    },
+    {
+      "midi": 69,
+      "pitch": "A4",
+      "duration_eighths": 1,
+      "onset_eighths": 114,
+      "measure": 19,
+      "offset_in_measure_eighths": 4
+    },
+    {
+      "midi": 62,
+      "pitch": "D4",
+      "duration_eighths": 1,
+      "onset_eighths": 115,
+      "measure": 19,
+      "offset_in_measure_eighths": 5
+    },
+    {
+      "midi": 67,
+      "pitch": "G4",
+      "duration_eighths": 4,
+      "onset_eighths": 116,
+      "measure": 20,
+      "offset_in_measure_eighths": 0
+    }
+  ]
+}

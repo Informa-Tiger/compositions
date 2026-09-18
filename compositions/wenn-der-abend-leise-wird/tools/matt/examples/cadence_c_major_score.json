@@ -1,0 +1,103 @@
+{
+  "title": "Planned V65-to-I example",
+  "config": {
+    "total_ticks": 4,
+    "ticks_per_quarter": 2,
+    "tonic_pc": 0,
+    "tonic_third": 4,
+    "allowed_pcs": [
+      0,
+      2,
+      4,
+      5,
+      7,
+      9,
+      11
+    ],
+    "ranges": [
+      [
+        67,
+        79
+      ],
+      [
+        60,
+        72
+      ],
+      [
+        52,
+        67
+      ],
+      [
+        40,
+        55
+      ]
+    ],
+    "max_leaps": [
+      7,
+      7,
+      7,
+      12
+    ],
+    "pulse_stride": 2,
+    "pulse_offset": 0,
+    "tritone_max_wait": 2,
+    "require_independence": false,
+    "min_independent_changes": 2
+  },
+  "voices": {
+    "s": [
+      {
+        "start": 0,
+        "dur": 2,
+        "pitch": 74
+      },
+      {
+        "start": 2,
+        "dur": 2,
+        "pitch": 76
+      }
+    ],
+    "a": [
+      {
+        "start": 0,
+        "dur": 2,
+        "pitch": 65
+      },
+      {
+        "start": 2,
+        "dur": 2,
+        "pitch": 64
+      }
+    ],
+    "t": [
+      {
+        "start": 0,
+        "dur": 4,
+        "pitch": 55
+      }
+    ],
+    "b": [
+      {
+        "start": 0,
+        "dur": 2,
+        "pitch": 47
+      },
+      {
+        "start": 2,
+        "dur": 2,
+        "pitch": 48
+      }
+    ]
+  },
+  "generation": {
+    "algorithm": "bounded SATB beam search",
+    "beam": 300,
+    "cost": 3.186,
+    "harmonies": [
+      "V65",
+      "V65",
+      "I",
+      "I"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Independent voices: C-major study",
+  "config": {
+    "total_ticks": 24,
+    "ticks_per_quarter": 2,
+    "tonic_pc": 0,
+    "tonic_third": 4,
+    "allowed_pcs": [
+      0,
+      2,
+      4,
+      5,
+      7,
+      9,
+      11
+    ],
+    "ranges": [
+      [
+        67,
+        79
+      ],
+      [
+        60,
+        72
+      ],
+      [
+        52,
+        67
+      ],
+      [
+        40,
+        55
+      ]
+    ],
+    "max_leaps": [
+      7,
+      7,
+      7,
+      12
+    ],
+    "pulse_stride": 2,
+    "pulse_offset": 0,
+    "tritone_max_wait": 2,
+    "require_independence": true,
+    "min_independent_changes": 2
+  },
+  "fixed_notes": {
+    "s": [
+      {
+        "start": 0,
+        "dur": 4,
+        "pitch": 72
+      },
+      {
+        "start": 4,
+        "dur": 4,
+        "pitch": 74
+      },
+      {
+        "start": 8,
+        "dur": 4,
+        "pitch": 76
+      },
+      {
+        "start": 12,
+        "dur": 4,
+        "pitch": 74
+      },
+      {
+        "start": 16,
+        "dur": 4,
+        "pitch": 72
+      },
+      {
+        "start": 20,
+        "dur": 4,
+        "pitch": 72
+      }
+    ]
+  },
+  "max_spacing": [
+    12,
+    12,
+    19
+  ],
+  "activity": [
+    {
+      "voice": "a",
+      "period": 2,
+      "offset": 1,
+      "weight": 2.4
+    },
+    {
+      "voice": "t",
+      "period": 3,
+      "offset": 2,
+      "weight": 2.4
+    },
+    {
+      "voice": "b",
+      "period": 4,
+      "offset": 0,
+      "weight": 2.4
+    }
+  ],
+  "chord_plan": [
+    {
+      "start": 22,
+      "end": 24,
+      "chords": [
+        "I"
+      ],
+      "complete": true,
+      "tonic_root_bass": true
+    }
+  ]
+}

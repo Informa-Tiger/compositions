@@ -1,0 +1,27 @@
+{
+  "source": "compositions/wenn-der-abend-leise-wird/versions/v002.json",
+  "schemaVersion": 1,
+  "buildTools": {
+    "lilypond": "GNU LilyPond 2.26.0 (running Guile 3.0)",
+    "fluidsynth": "FluidSynth runtime version 2.6.0",
+    "ffmpeg": "ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers"
+  },
+  "artifacts": {
+    "composition-performance.mid": "80fc41e63c1a62e229b1508a25cec2c996ec0cfd0d8a37b9b09372b06f9c90b3",
+    "composition.json": "f1e5b0ebebd824f42be34d0add7425a7c0e7589ac0204d3f1324ead02ddae717",
+    "composition.ly": "e78da6ade9fccb85aca90ff79c24e84cc55f32e5a0448ed342c44ea8a56562b0",
+    "composition.mid": "a868c5d709dc0fbe330e9c6c20ad769c168021d28e8970a069249f55743d4ebc",
+    "composition.mp3": "80503f15b6893afc7621c8a5b2a0b19bbc71fde668e3019076480649091c099d",
+    "composition.mp4": "a9257f1a8a5be8f8e54ab7173f2f67b5fc803e2d98bf3a997abcd82caec85bb7",
+    "composition.musicxml": "c1fc4796a304a38cd9619f2645e8576f7d25361559603866e92e109c47ba4cdb",
+    "composition.pdf": "17370b81742ca784a84ae56b7422bfec88392c2902bc18dc4e31b0dfc4873e37",
+    "composition.png": "9b35a52b60d0ea10d1490052a8ff09b7295847421574d778c313bb09df9e4f9f",
+    "index.html": "c04256030ddb7fd0678f3a2330cb582eb98b61c55f53ce00e56eb51c9ae82f7f",
+    "matt-audit.json": "facc6f8d2a36fbdd6e2e2f43b03aed786a66040f665795f78503fe8913fe07aa",
+    "matt-input.json": "6a9669d1152dd703d240d87fb46db5276765b2ab86205d49aa9fe90aeb94722f",
+    "verification.json": "307dd6be7f4574f5547182be4f12242e2c29f77239fffa19ab0d706ace7d70d3"
+  },
+  "sourceDataSha256": "a1416b1f488106ec0e42717ce1611691d0663c0e500d65c6a72da29df65e3e8c",
+  "mediaSourceDataSha256": "a1416b1f488106ec0e42717ce1611691d0663c0e500d65c6a72da29df65e3e8c",
+  "videoSourceDataSha256": "a1416b1f488106ec0e42717ce1611691d0663c0e500d65c6a72da29df65e3e8c"
+}

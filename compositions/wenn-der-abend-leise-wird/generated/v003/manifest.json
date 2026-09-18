@@ -1,0 +1,35 @@
+{
+  "source": "compositions/wenn-der-abend-leise-wird/versions/v003.json",
+  "schemaVersion": 1,
+  "buildTools": {
+    "lilypond": "GNU LilyPond 2.26.0 (running Guile 3.0)",
+    "fluidsynth": "FluidSynth runtime version 2.6.0",
+    "ffmpeg": "ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers"
+  },
+  "artifacts": {
+    "FINDINGS.md": "8a9b9165a8daa39de26de25f17b48838171f28f51fd8baff159073dec31f820f",
+    "MattDiagnostic.lean": "8ee0cb5c558efc491d2779042e89fcc9195f9a7b3ddaecd5ad3e600f1e44b2b3",
+    "NONCHORD_TONES.md": "dbfa5ad9f3e6e974182a30443b942e86c99a897c2fb2a2a5b26d55fed0f59052",
+    "Rejected.lean": "7fee8cd0baaf32bdf6d0d2828a8b4e7e7cdbda6a58c00305decc4a6bfb7652dd",
+    "SHA256.json": "24c177d3e831808c9a143ba9f07fe593ad8e8bf87231d7999dd2aad8144ae3f3",
+    "composition-performance.mid": "ef1020684db04168ea6259ec747a4cdd1e1a7054b1768fd5781025e1a6c8e3a4",
+    "composition.json": "174551f2d02de7aabdcaa826c27cb4d11e8eb808792c8d54f9057f4c94736d6b",
+    "composition.ly": "8fe53b92de07cf62b14085b01ecb73f2d7882b269e0d99be43f9fa138a074ee0",
+    "composition.mid": "de20c484df7cd44c4ea705e7e0c60fdf51fe8dc2dc1dc35ded7b69a9c24b7907",
+    "composition.mp3": "56eac4b5e00413aee458088353f32b3b15fb3e7b315079b7c8c5319cba2cb584",
+    "composition.mp4": "6757dca7675095859e9388cc110e4b82887109836542ecc2119737f5c67adf76",
+    "composition.musicxml": "2e056e8032c02c2a8b37355af8996bafa0238add09807f102e0c48ef8e637036",
+    "composition.pdf": "83fcf0b3f9e22223db779508ddfe13956a7c87c14059d582100e39e7daa64131",
+    "composition.png": "6ed8cbac35e6e4634449c656c17b9f35f90f9092007a8a24b68827ce58688b13",
+    "exception-ledger.json": "5eeb35ed51eb6db2b8dc49def6d3f15f330b3033aeaa5aa68229d137a990e6a6",
+    "harmonic-review.json": "a495c19a6d801d510981ac4da0beda6996290cd5cbcece04c01498d837e5fd3d",
+    "index.html": "991ed3949db937b193494adc398c03ffa405049237710678ea4b46dcbfef13ca",
+    "matt-audit.json": "c99c37d6a4448683ebdc832403ccf1c8123462c9f48278c79064cbddc8d51578",
+    "matt-input.json": "f7bec37d0d4344228172535b6dfb5c5087ef30ec6c6f7e9896810cfd0cdf7073",
+    "verification.json": "7e82b10fcf20fe0361e869fb482d935af0ff471ddd0aa6d8b21ca254beae84b0",
+    "lean-verification.txt": "bc5eb8c4a86c4a73b4f433b9b8fb03a17c3bc888c07a36a4daf6f92af3da656f"
+  },
+  "sourceDataSha256": "c6c92374fae86d98b281816c55eacf86b5326c441e74e85d49b2e611ce144bfc",
+  "mediaSourceDataSha256": "c6c92374fae86d98b281816c55eacf86b5326c441e74e85d49b2e611ce144bfc",
+  "videoSourceDataSha256": "c6c92374fae86d98b281816c55eacf86b5326c441e74e85d49b2e611ce144bfc"
+}

@@ -1,0 +1,1569 @@
+{
+  "scope": "Explicit harmonic plan plus finite local note-shape and destination checks; editorial interpretation, not a complete counterpoint theorem.",
+  "harmony_by_tick": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "C",
+    "C",
+    "D",
+    "D",
+    "Am",
+    "Am",
+    "D",
+    "D",
+    "G",
+    "G",
+    "Em",
+    "Em",
+    "Am",
+    "Am",
+    "G",
+    "G",
+    "G",
+    "G",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "Am",
+    "Am",
+    "C",
+    "C",
+    "D",
+    "D",
+    "D",
+    "D",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "C",
+    "C",
+    "Am",
+    "Am",
+    "G",
+    "G",
+    "G",
+    "G",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "Bm",
+    "Bm",
+    "D",
+    "D",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "Em",
+    "Em",
+    "Em",
+    "Em",
+    "Am",
+    "Am",
+    "G",
+    "G",
+    "D",
+    "D",
+    "C",
+    "C",
+    "G",
+    "G",
+    "G",
+    "G",
+    "D",
+    "D",
+    "G",
+    "G",
+    "C",
+    "C",
+    "D",
+    "D",
+    "G",
+    "G",
+    "Bm",
+    "Bm",
+    "D",
+    "D",
+    "D",
+    "C",
+    "Am",
+    "Am",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "C",
+    "C",
+    "Em",
+    "Em",
+    "Am",
+    "Am",
+    "A7",
+    "A7",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "Em",
+    "Em",
+    "Am",
+    "Am",
+    "G",
+    "G",
+    "G",
+    "G",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "G",
+    "Bm",
+    "D",
+    "D",
+    "G",
+    "G",
+    "G",
+    "G",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "Em",
+    "Em",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "Em",
+    "Em",
+    "G",
+    "G",
+    "Bm",
+    "Bm",
+    "Em",
+    "Em",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "G",
+    "G",
+    "Em",
+    "Em",
+    "Em",
+    "Em",
+    "Em",
+    "Em",
+    "B7",
+    "B7",
+    "Em",
+    "Em",
+    "Am",
+    "Am",
+    "Am",
+    "Am",
+    "Am",
+    "Am",
+    "Am",
+    "Am",
+    "B7",
+    "B7",
+    "Em",
+    "Em",
+    "G",
+    "G",
+    "C",
+    "C",
+    "C",
+    "C",
+    "Am",
+    "Am",
+    "D",
+    "D",
+    "G",
+    "G",
+    "Am7",
+    "Am7",
+    "D",
+    "D",
+    "C",
+    "C",
+    "Em7",
+    "Em7",
+    "A7",
+    "A7",
+    "D",
+    "D",
+    "C",
+    "C",
+    "D7",
+    "D7",
+    "Em",
+    "Em",
+    "C",
+    "C",
+    "D",
+    "D",
+    "G",
+    "G",
+    "D",
+    "D",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "Em",
+    "Em",
+    "D",
+    "D",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "Em",
+    "Em",
+    "Em",
+    "Em",
+    "Am",
+    "Am",
+    "G",
+    "G",
+    "D",
+    "D",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "Em",
+    "Em",
+    "D",
+    "D",
+    "G",
+    "G",
+    "G",
+    "G",
+    "D",
+    "D",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "D",
+    "D",
+    "D",
+    "D",
+    "D7",
+    "D7",
+    "G",
+    "G",
+    "G",
+    "G",
+    "C",
+    "C",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+  ],
+  "nonchord_events": [
+    {
+      "voice": "s",
+      "start_tick": 44,
+      "nonchord_ticks": [
+        44,
+        45
+      ],
+      "pitches": [
+        66,
+        64,
+        62
+      ],
+      "treatment": "Stepwise passing note (accented)",
+      "consonant_destination_tick": 46
+    },
+    {
+      "voice": "s",
+      "start_tick": 80,
+      "nonchord_ticks": [
+        82
+      ],
+      "pitches": [
+        74,
+        74,
+        72
+      ],
+      "treatment": "Prepared suspension, 9\u20138",
+      "consonant_destination_tick": 83
+    },
+    {
+      "voice": "s",
+      "start_tick": 166,
+      "nonchord_ticks": [
+        166
+      ],
+      "pitches": [
+        67,
+        66,
+        64
+      ],
+      "treatment": "Stepwise passing note (accented)",
+      "consonant_destination_tick": 167
+    },
+    {
+      "voice": "s",
+      "start_tick": 169,
+      "nonchord_ticks": [
+        169
+      ],
+      "pitches": [
+        67,
+        66,
+        64
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 170
+    },
+    {
+      "voice": "s",
+      "start_tick": 176,
+      "nonchord_ticks": [
+        176
+      ],
+      "pitches": [
+        67,
+        71,
+        69
+      ],
+      "treatment": "Upper appoggiatura, third into the note and downward step out",
+      "consonant_destination_tick": 177
+    },
+    {
+      "voice": "s",
+      "start_tick": 178,
+      "nonchord_ticks": [
+        178
+      ],
+      "pitches": [
+        69,
+        67,
+        66
+      ],
+      "treatment": "Stepwise passing note (accented)",
+      "consonant_destination_tick": 180
+    },
+    {
+      "voice": "s",
+      "start_tick": 179,
+      "nonchord_ticks": [
+        179
+      ],
+      "pitches": [
+        67,
+        66,
+        64
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 180
+    },
+    {
+      "voice": "s",
+      "start_tick": 190,
+      "nonchord_ticks": [
+        190
+      ],
+      "pitches": [
+        71,
+        69,
+        67
+      ],
+      "treatment": "Stepwise passing note (accented)",
+      "consonant_destination_tick": 191
+    },
+    {
+      "voice": "s",
+      "start_tick": 193,
+      "nonchord_ticks": [
+        193
+      ],
+      "pitches": [
+        76,
+        74,
+        72
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 194
+    },
+    {
+      "voice": "s",
+      "start_tick": 205,
+      "nonchord_ticks": [
+        205
+      ],
+      "pitches": [
+        64,
+        66,
+        67
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 206
+    },
+    {
+      "voice": "s",
+      "start_tick": 217,
+      "nonchord_ticks": [
+        217
+      ],
+      "pitches": [
+        67,
+        69,
+        67
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 218
+    },
+    {
+      "voice": "s",
+      "start_tick": 225,
+      "nonchord_ticks": [
+        225
+      ],
+      "pitches": [
+        69,
+        67,
+        69
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 226
+    },
+    {
+      "voice": "s",
+      "start_tick": 229,
+      "nonchord_ticks": [
+        229
+      ],
+      "pitches": [
+        71,
+        69,
+        67
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 230
+    },
+    {
+      "voice": "s",
+      "start_tick": 235,
+      "nonchord_ticks": [
+        235
+      ],
+      "pitches": [
+        71,
+        69,
+        67
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 236
+    },
+    {
+      "voice": "s",
+      "start_tick": 241,
+      "nonchord_ticks": [
+        241
+      ],
+      "pitches": [
+        71,
+        69,
+        67
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 242
+    },
+    {
+      "voice": "s",
+      "start_tick": 248,
+      "nonchord_ticks": [
+        248
+      ],
+      "pitches": [
+        74,
+        71,
+        69
+      ],
+      "treatment": "Upper appoggiatura, third into the note and downward step out",
+      "consonant_destination_tick": 249
+    },
+    {
+      "voice": "s",
+      "start_tick": 253,
+      "nonchord_ticks": [
+        253
+      ],
+      "pitches": [
+        71,
+        69,
+        67
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 254
+    },
+    {
+      "voice": "s",
+      "start_tick": 263,
+      "nonchord_ticks": [
+        263
+      ],
+      "pitches": [
+        69,
+        71,
+        72
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 264
+    },
+    {
+      "voice": "s",
+      "start_tick": 266,
+      "nonchord_ticks": [
+        266
+      ],
+      "pitches": [
+        72,
+        71,
+        69
+      ],
+      "treatment": "Stepwise passing note (accented)",
+      "consonant_destination_tick": 268
+    },
+    {
+      "voice": "s",
+      "start_tick": 267,
+      "nonchord_ticks": [
+        267
+      ],
+      "pitches": [
+        71,
+        69,
+        67
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 268
+    },
+    {
+      "voice": "s",
+      "start_tick": 268,
+      "nonchord_ticks": [
+        270,
+        271
+      ],
+      "pitches": [
+        69,
+        67,
+        66
+      ],
+      "treatment": "Prepared cadential 4\u20133 suspension",
+      "consonant_destination_tick": 272
+    },
+    {
+      "voice": "a",
+      "start_tick": 27,
+      "nonchord_ticks": [
+        27
+      ],
+      "pitches": [
+        64,
+        62,
+        60
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 28
+    },
+    {
+      "voice": "a",
+      "start_tick": 51,
+      "nonchord_ticks": [
+        51
+      ],
+      "pitches": [
+        64,
+        62,
+        64
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 52
+    },
+    {
+      "voice": "a",
+      "start_tick": 73,
+      "nonchord_ticks": [
+        73
+      ],
+      "pitches": [
+        59,
+        60,
+        59
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 74
+    },
+    {
+      "voice": "a",
+      "start_tick": 99,
+      "nonchord_ticks": [
+        99
+      ],
+      "pitches": [
+        66,
+        64,
+        66
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 100
+    },
+    {
+      "voice": "a",
+      "start_tick": 117,
+      "nonchord_ticks": [
+        117
+      ],
+      "pitches": [
+        61,
+        62,
+        60
+      ],
+      "treatment": "Early upward C#\u2013D resolution, followed by D\u2013C\u2013B; chromatically inflected turn through A7\u2013D7\u2013G",
+      "consonant_destination_tick": 118
+    },
+    {
+      "voice": "a",
+      "start_tick": 147,
+      "nonchord_ticks": [
+        147
+      ],
+      "pitches": [
+        64,
+        62,
+        60
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 148
+    },
+    {
+      "voice": "a",
+      "start_tick": 152,
+      "nonchord_ticks": [
+        152
+      ],
+      "pitches": [
+        59,
+        60,
+        59
+      ],
+      "treatment": "Returning neighbour (accented)",
+      "consonant_destination_tick": 153
+    },
+    {
+      "voice": "a",
+      "start_tick": 169,
+      "nonchord_ticks": [
+        169
+      ],
+      "pitches": [
+        59,
+        60,
+        59
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 170
+    },
+    {
+      "voice": "a",
+      "start_tick": 175,
+      "nonchord_ticks": [
+        175
+      ],
+      "pitches": [
+        64,
+        62,
+        64
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 176
+    },
+    {
+      "voice": "a",
+      "start_tick": 177,
+      "nonchord_ticks": [
+        177
+      ],
+      "pitches": [
+        64,
+        66,
+        64
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 178
+    },
+    {
+      "voice": "a",
+      "start_tick": 230,
+      "nonchord_ticks": [
+        230
+      ],
+      "pitches": [
+        67,
+        66,
+        64
+      ],
+      "treatment": "Stepwise passing note (accented)",
+      "consonant_destination_tick": 231
+    },
+    {
+      "voice": "a",
+      "start_tick": 236,
+      "nonchord_ticks": [
+        236
+      ],
+      "pitches": [
+        62,
+        64,
+        62
+      ],
+      "treatment": "Returning neighbour (accented)",
+      "consonant_destination_tick": 237
+    },
+    {
+      "voice": "a",
+      "start_tick": 249,
+      "nonchord_ticks": [
+        249
+      ],
+      "pitches": [
+        66,
+        64,
+        66
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 250
+    },
+    {
+      "voice": "a",
+      "start_tick": 254,
+      "nonchord_ticks": [
+        254
+      ],
+      "pitches": [
+        67,
+        66,
+        64
+      ],
+      "treatment": "Stepwise passing note (accented)",
+      "consonant_destination_tick": 255
+    },
+    {
+      "voice": "t",
+      "start_tick": 13,
+      "nonchord_ticks": [
+        13
+      ],
+      "pitches": [
+        59,
+        57,
+        55
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 14
+    },
+    {
+      "voice": "t",
+      "start_tick": 21,
+      "nonchord_ticks": [
+        21
+      ],
+      "pitches": [
+        60,
+        59,
+        57
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 22
+    },
+    {
+      "voice": "t",
+      "start_tick": 31,
+      "nonchord_ticks": [
+        31
+      ],
+      "pitches": [
+        55,
+        57,
+        59
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 32
+    },
+    {
+      "voice": "t",
+      "start_tick": 55,
+      "nonchord_ticks": [
+        55
+      ],
+      "pitches": [
+        55,
+        57,
+        59
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 56
+    },
+    {
+      "voice": "t",
+      "start_tick": 63,
+      "nonchord_ticks": [
+        63
+      ],
+      "pitches": [
+        62,
+        60,
+        62
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 64
+    },
+    {
+      "voice": "t",
+      "start_tick": 67,
+      "nonchord_ticks": [
+        67
+      ],
+      "pitches": [
+        59,
+        57,
+        55
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 68
+    },
+    {
+      "voice": "t",
+      "start_tick": 69,
+      "nonchord_ticks": [
+        69
+      ],
+      "pitches": [
+        55,
+        54,
+        55
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 70
+    },
+    {
+      "voice": "t",
+      "start_tick": 121,
+      "nonchord_ticks": [
+        121
+      ],
+      "pitches": [
+        55,
+        54,
+        55
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 122
+    },
+    {
+      "voice": "t",
+      "start_tick": 129,
+      "nonchord_ticks": [
+        129
+      ],
+      "pitches": [
+        59,
+        57,
+        57
+      ],
+      "treatment": "Anticipation of the coming dominant fifth, approached down by step",
+      "consonant_destination_tick": 130
+    },
+    {
+      "voice": "t",
+      "start_tick": 135,
+      "nonchord_ticks": [
+        135
+      ],
+      "pitches": [
+        62,
+        60,
+        62
+      ],
+      "treatment": "Returning neighbour",
+      "consonant_destination_tick": 136
+    },
+    {
+      "voice": "t",
+      "start_tick": 151,
+      "nonchord_ticks": [
+        151
+      ],
+      "pitches": [
+        55,
+        57,
+        59
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 152
+    },
+    {
+      "voice": "t",
+      "start_tick": 153,
+      "nonchord_ticks": [
+        153
+      ],
+      "pitches": [
+        59,
+        57,
+        55
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 154
+    },
+    {
+      "voice": "t",
+      "start_tick": 155,
+      "nonchord_ticks": [
+        155
+      ],
+      "pitches": [
+        55,
+        57,
+        59
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 156
+    },
+    {
+      "voice": "t",
+      "start_tick": 164,
+      "nonchord_ticks": [
+        164
+      ],
+      "pitches": [
+        55,
+        57,
+        55
+      ],
+      "treatment": "Returning neighbour (accented)",
+      "consonant_destination_tick": 165
+    },
+    {
+      "voice": "t",
+      "start_tick": 194,
+      "nonchord_ticks": [
+        194
+      ],
+      "pitches": [
+        55,
+        59,
+        57
+      ],
+      "treatment": "Upper appoggiatura, third into the note and downward step out",
+      "consonant_destination_tick": 195
+    },
+    {
+      "voice": "t",
+      "start_tick": 265,
+      "nonchord_ticks": [
+        265
+      ],
+      "pitches": [
+        64,
+        62,
+        60
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 266
+    },
+    {
+      "voice": "t",
+      "start_tick": 270,
+      "nonchord_ticks": [
+        270,
+        271
+      ],
+      "pitches": [
+        60,
+        59,
+        57
+      ],
+      "treatment": "Cadential 6\u20135, paired with the prepared soprano 4\u20133",
+      "consonant_destination_tick": 272
+    },
+    {
+      "voice": "b",
+      "start_tick": 67,
+      "nonchord_ticks": [
+        67
+      ],
+      "pitches": [
+        43,
+        45,
+        47
+      ],
+      "treatment": "Stepwise passing note",
+      "consonant_destination_tick": 68
+    }
+  ],
+  "chromatic_resolutions": [
+    {
+      "voice": "a",
+      "tick": 116,
+      "pitches": [
+        61,
+        62
+      ]
+    },
+    {
+      "voice": "a",
+      "tick": 172,
+      "pitches": [
+        63,
+        64
+      ]
+    },
+    {
+      "voice": "a",
+      "tick": 184,
+      "pitches": [
+        63,
+        64
+      ]
+    },
+    {
+      "voice": "a",
+      "tick": 208,
+      "pitches": [
+        61,
+        62
+      ]
+    }
+  ],
+  "unclassified": 0,
+  "harmonic_tritones": [
+    {
+      "tick": 35,
+      "voices": "sa",
+      "pitches": [
+        72,
+        66
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 59,
+      "voices": "sa",
+      "pitches": [
+        72,
+        66
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 63,
+      "voices": "at",
+      "pitches": [
+        66,
+        60
+      ],
+      "reason": "Transient interval caused by the explicitly checked nonchord treatment in t"
+    },
+    {
+      "tick": 107,
+      "voices": "sa",
+      "pitches": [
+        72,
+        66
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 116,
+      "voices": "at",
+      "pitches": [
+        61,
+        55
+      ],
+      "reason": "A7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 118,
+      "voices": "at",
+      "pitches": [
+        60,
+        54
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 119,
+      "voices": "at",
+      "pitches": [
+        60,
+        54
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 131,
+      "voices": "sa",
+      "pitches": [
+        72,
+        66
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 135,
+      "voices": "at",
+      "pitches": [
+        66,
+        60
+      ],
+      "reason": "Transient interval caused by the explicitly checked nonchord treatment in t"
+    },
+    {
+      "tick": 148,
+      "voices": "at",
+      "pitches": [
+        60,
+        54
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 149,
+      "voices": "at",
+      "pitches": [
+        60,
+        54
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 160,
+      "voices": "at",
+      "pitches": [
+        60,
+        54
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 161,
+      "voices": "at",
+      "pitches": [
+        60,
+        54
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 169,
+      "voices": "sa",
+      "pitches": [
+        66,
+        60
+      ],
+      "reason": "Transient interval caused by the explicitly checked nonchord treatment in s,a"
+    },
+    {
+      "tick": 172,
+      "voices": "at",
+      "pitches": [
+        63,
+        57
+      ],
+      "reason": "B7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 173,
+      "voices": "at",
+      "pitches": [
+        63,
+        57
+      ],
+      "reason": "B7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 177,
+      "voices": "at",
+      "pitches": [
+        66,
+        60
+      ],
+      "reason": "Transient interval caused by the explicitly checked nonchord treatment in a"
+    },
+    {
+      "tick": 179,
+      "voices": "sb",
+      "pitches": [
+        66,
+        48
+      ],
+      "reason": "Transient interval caused by the explicitly checked nonchord treatment in s"
+    },
+    {
+      "tick": 184,
+      "voices": "at",
+      "pitches": [
+        63,
+        57
+      ],
+      "reason": "B7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 185,
+      "voices": "at",
+      "pitches": [
+        63,
+        57
+      ],
+      "reason": "B7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 205,
+      "voices": "sa",
+      "pitches": [
+        66,
+        60
+      ],
+      "reason": "Transient interval caused by the explicitly checked nonchord treatment in s"
+    },
+    {
+      "tick": 205,
+      "voices": "sb",
+      "pitches": [
+        66,
+        48
+      ],
+      "reason": "Transient interval caused by the explicitly checked nonchord treatment in s"
+    },
+    {
+      "tick": 208,
+      "voices": "sa",
+      "pitches": [
+        67,
+        61
+      ],
+      "reason": "A7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 209,
+      "voices": "sa",
+      "pitches": [
+        67,
+        61
+      ],
+      "reason": "A7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 214,
+      "voices": "sa",
+      "pitches": [
+        66,
+        60
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters); D7 resolves deceptively to E minor at the tenor entry"
+    },
+    {
+      "tick": 215,
+      "voices": "sa",
+      "pitches": [
+        66,
+        60
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters); D7 resolves deceptively to E minor at the tenor entry"
+    },
+    {
+      "tick": 227,
+      "voices": "at",
+      "pitches": [
+        66,
+        60
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 251,
+      "voices": "at",
+      "pitches": [
+        66,
+        60
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 274,
+      "voices": "at",
+      "pitches": [
+        60,
+        54
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    },
+    {
+      "tick": 275,
+      "voices": "at",
+      "pitches": [
+        60,
+        54
+      ],
+      "reason": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+    }
+  ],
+  "chordal_sevenths": [
+    {
+      "tick": 35,
+      "voice": "s",
+      "pitch": 72,
+      "next_pitch": 71,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 46,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 47,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 59,
+      "voice": "s",
+      "pitch": 72,
+      "next_pitch": 71,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 107,
+      "voice": "s",
+      "pitch": 72,
+      "next_pitch": 71,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 116,
+      "voice": "t",
+      "pitch": 55,
+      "next_pitch": 54,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 117,
+      "voice": "t",
+      "pitch": 55,
+      "next_pitch": 54,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 118,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 119,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 131,
+      "voice": "s",
+      "pitch": 72,
+      "next_pitch": 71,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 142,
+      "voice": "s",
+      "pitch": 72,
+      "next_pitch": 66,
+      "source_tune_exception": true
+    },
+    {
+      "tick": 148,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 149,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 160,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 161,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 172,
+      "voice": "t",
+      "pitch": 57,
+      "next_pitch": 55,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 173,
+      "voice": "t",
+      "pitch": 57,
+      "next_pitch": 55,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 184,
+      "voice": "t",
+      "pitch": 57,
+      "next_pitch": 55,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 185,
+      "voice": "t",
+      "pitch": 57,
+      "next_pitch": 55,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 201,
+      "voice": "s",
+      "pitch": 67,
+      "next_pitch": 66,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 206,
+      "voice": "a",
+      "pitch": 62,
+      "next_pitch": 61,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 207,
+      "voice": "a",
+      "pitch": 62,
+      "next_pitch": 61,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 208,
+      "voice": "s",
+      "pitch": 67,
+      "next_pitch": 66,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 209,
+      "voice": "s",
+      "pitch": 67,
+      "next_pitch": 66,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 214,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 215,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 227,
+      "voice": "t",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 251,
+      "voice": "t",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 274,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    },
+    {
+      "tick": 275,
+      "voice": "a",
+      "pitch": 60,
+      "next_pitch": 59,
+      "source_tune_exception": false
+    }
+  ],
+  "adjacent_unisons": {
+    "events": [
+      {
+        "tick": 223,
+        "voices": "at",
+        "pitch": 62
+      }
+    ],
+    "judgment": "One eighth-note contact: tenor cantus rises B3\u2013D4 beneath held alto D4, which then opens to F#4. Passing contact without crossing; all other adjacent voices remain distinct."
+  }
+}

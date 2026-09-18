@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "checks": {
+    "schema_valid": true,
+    "events_well_formed": true,
+    "instantaneous_direct": true,
+    "instantaneous_parallel": true,
+    "instantaneous_battuta": true,
+    "pulse_direct": true,
+    "pulse_parallel": true,
+    "pulse_battuta": true,
+    "stagger_direct": true,
+    "stagger_parallel": true,
+    "stagger_battuta": true,
+    "no_crossing": true,
+    "ranges": true,
+    "allowed_pitch_classes": true,
+    "no_melodic_tritone": true,
+    "licensed_harmonic_tritones": true,
+    "rhythmic_independence": true,
+    "max_leaps": true,
+    "adjacent_voice_overlap": true
+  },
+  "errors": [],
+  "scope": {
+    "formal_rule_subset": [
+      "events_well_formed",
+      "instantaneous_direct",
+      "instantaneous_parallel",
+      "instantaneous_battuta",
+      "pulse_direct",
+      "pulse_parallel",
+      "pulse_battuta",
+      "stagger_direct",
+      "stagger_parallel",
+      "stagger_battuta",
+      "no_crossing",
+      "ranges",
+      "allowed_pitch_classes",
+      "no_melodic_tritone",
+      "licensed_harmonic_tritones",
+      "rhythmic_independence"
+    ],
+    "python_only": [
+      "max_leaps",
+      "adjacent_voice_overlap"
+    ],
+    "limitations": [
+      "This is an explicit strict policy, not universal Bach/Fux correctness.",
+      "Pitch classes have no diatonic spelling; not all dissonances or nonchord tones are classified.",
+      "Independence counts changed-note onsets inside another voice's held notes; it does not establish thematic or aesthetic independence.",
+      "Passing this Python audit is not itself a Lean proof; compile the generated certificate separately."
+    ]
+  },
+  "total_ticks": 4,
+  "pulse_ticks": [
+    0,
+    2
+  ],
+  "stagger_windows_checked": 0,
+  "harmonic_tritone_ticks": [
+    0,
+    1
+  ],
+  "tritone_resolution_witnesses": [
+    {
+      "tick": 0,
+      "resolution_tick": 2
+    },
+    {
+      "tick": 1,
+      "resolution_tick": 2
+    }
+  ],
+  "independence_matrix": [
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "rhythm": {
+    "s": {
+      "notes": 2,
+      "rest_ticks": 0,
+      "pitch_changes": 1,
+      "largest_contiguous_leap": 2,
+      "durations": [
+        2
+      ]
+    },
+    "a": {
+      "notes": 2,
+      "rest_ticks": 0,
+      "pitch_changes": 1,
+      "largest_contiguous_leap": 1,
+      "durations": [
+        2
+      ]
+    },
+    "t": {
+      "notes": 1,
+      "rest_ticks": 0,
+      "pitch_changes": 0,
+      "largest_contiguous_leap": 0,
+      "durations": [
+        4
+      ]
+    },
+    "b": {
+      "notes": 2,
+      "rest_ticks": 0,
+      "pitch_changes": 1,
+      "largest_contiguous_leap": 1,
+      "durations": [
+        2
+      ]
+    }
+  }
+}

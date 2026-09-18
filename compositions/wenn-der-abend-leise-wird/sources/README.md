@@ -1,0 +1,8 @@
+# Sources and attribution
+
+- Melody: **Es wird scho glei dumpa**, credited to Anton Reidinger (1839–1912). `melody.json` records the melody's notes and rhythm, independently of the newly composed accompaniment.
+- Published tune reference: [Salzburger Volksliedwerk PDF](https://www.salzburgervolksliedwerk.at/fileadmin/user_upload/volksliedwerk/user_upload/es_wird_scho_glei_dumpa.pdf), Salzburg 2018, page 42, reprinting the 2001 edition. This is a published edition, not an autograph. The edition is linked rather than redistributed here. Its tune was visually checked against the transcription.
+- Matt's counterpoint toolkit was supplied via his Astra assistant. It includes Python diagnostics and Lean predicates, with its own procedure notes and scope limitations. It is included unchanged in `../tools/matt/`, by explicit authorization from the repository owner. Private correspondence is not included. Its general rules mention Fux and Fenaroli; they do not claim to formalize all historical practice.
+- The likely master/student dialogue discussed during the project was Johann Joseph Fux's *Gradus ad Parnassum* (1725), originally in Latin, with Aloysius and Josephus. [Newberry contextual reference](https://italian.newberry.t-pen.org/essay/075). No specific Bach-score precedent was verified in this project.
+- Visualization inspiration: [scrolling piano-roll video](https://www.youtube.com/watch?v=ddbxFi3-UO4). No media was copied.
+- GeneralUser GS 2.0.3: S. Christian Collins, [project repository](https://github.com/mrbumpy409/GeneralUser-GS). The bank and its supplied license are in `../assets/`.

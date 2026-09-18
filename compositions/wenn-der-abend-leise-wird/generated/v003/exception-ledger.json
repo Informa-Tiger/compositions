@@ -1,0 +1,3692 @@
+[
+  {
+    "id": 1,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        27,
+        28
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 2,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "sb",
+      "ticks": [
+        37,
+        38
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 3,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "st",
+      "ticks": [
+        41,
+        42
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        66,
+        54
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 4,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        41,
+        42
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 5,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        43,
+        44
+      ],
+      "from_pitches": [
+        66,
+        62
+      ],
+      "to_pitches": [
+        64,
+        57
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 6,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        47,
+        48
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 7,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        53,
+        54
+      ],
+      "from_pitches": [
+        60,
+        45
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 8,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        63,
+        64
+      ],
+      "from_pitches": [
+        60,
+        47
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 9,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        65,
+        66
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 10,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        65,
+        66
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 11,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "tb",
+      "ticks": [
+        66,
+        67
+      ],
+      "from_pitches": [
+        59,
+        43
+      ],
+      "to_pitches": [
+        57,
+        45
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 12,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        73,
+        74
+      ],
+      "from_pitches": [
+        60,
+        55
+      ],
+      "to_pitches": [
+        59,
+        52
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 13,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        75,
+        76
+      ],
+      "from_pitches": [
+        67,
+        40
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 14,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        77,
+        78
+      ],
+      "from_pitches": [
+        60,
+        52
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 15,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        83,
+        84
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 16,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        87,
+        88
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 17,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        89,
+        90
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 18,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        89,
+        90
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 19,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        95,
+        96
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 20,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "sb",
+      "ticks": [
+        97,
+        98
+      ],
+      "from_pitches": [
+        74,
+        43
+      ],
+      "to_pitches": [
+        71,
+        47
+      ]
+    },
+    "assessment": "m.17: fixed D\u2013B\u2013D cantus over G\u2013B\u2013D bass. Contrary thirds reach the B-minor chord on beat 2; the bass arpeggio and returning soprano shape justify the local octave."
+  },
+  {
+    "id": 21,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        99,
+        100
+      ],
+      "from_pitches": [
+        62,
+        47
+      ],
+      "to_pitches": [
+        57,
+        38
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 22,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        102,
+        103
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 23,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        107,
+        108
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 24,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "tb",
+      "ticks": [
+        107,
+        108
+      ],
+      "from_pitches": [
+        57,
+        38
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 25,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "st",
+      "ticks": [
+        113,
+        114
+      ],
+      "from_pitches": [
+        71,
+        55
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 26,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "sb",
+      "ticks": [
+        117,
+        118
+      ],
+      "from_pitches": [
+        69,
+        45
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "m.20: fixed cantus A\u2013D closes the phrase over A7\u2013D7. Opposite bass motion supports the dominant preparation while inner tendency tones resolve; retained phrase-ending octave, not parallel octaves."
+  },
+  {
+    "id": 27,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        119,
+        120
+      ],
+      "from_pitches": [
+        62,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 28,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        123,
+        124
+      ],
+      "from_pitches": [
+        67,
+        40
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 29,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        125,
+        126
+      ],
+      "from_pitches": [
+        60,
+        52
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 30,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        135,
+        136
+      ],
+      "from_pitches": [
+        60,
+        47
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 31,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        137,
+        138
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 32,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        137,
+        138
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 33,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        145,
+        146
+      ],
+      "from_pitches": [
+        62,
+        43
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 34,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        149,
+        150
+      ],
+      "from_pitches": [
+        62,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 35,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sb",
+      "ticks": [
+        159,
+        160
+      ],
+      "from_pitches": [
+        67,
+        43
+      ],
+      "to_pitches": [
+        69,
+        50
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 36,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        161,
+        162
+      ],
+      "from_pitches": [
+        62,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 37,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        173,
+        174
+      ],
+      "from_pitches": [
+        63,
+        47
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 38,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        175,
+        176
+      ],
+      "from_pitches": [
+        67,
+        62
+      ],
+      "to_pitches": [
+        71,
+        64
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 39,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        177,
+        178
+      ],
+      "from_pitches": [
+        66,
+        60
+      ],
+      "to_pitches": [
+        64,
+        57
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 40,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        185,
+        186
+      ],
+      "from_pitches": [
+        63,
+        47
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 41,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        187,
+        188
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 42,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        197,
+        198
+      ],
+      "from_pitches": [
+        66,
+        57
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 43,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "tb",
+      "ticks": [
+        197,
+        198
+      ],
+      "from_pitches": [
+        57,
+        38
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 44,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "sb",
+      "ticks": [
+        199,
+        200
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 45,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        203,
+        204
+      ],
+      "from_pitches": [
+        62,
+        38
+      ],
+      "to_pitches": [
+        60,
+        48
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 46,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        207,
+        208
+      ],
+      "from_pitches": [
+        55,
+        52
+      ],
+      "to_pitches": [
+        52,
+        45
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 47,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "st",
+      "ticks": [
+        209,
+        210
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        66,
+        54
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 48,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "sb",
+      "ticks": [
+        211,
+        212
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        64,
+        40
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 49,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        213,
+        214
+      ],
+      "from_pitches": [
+        55,
+        40
+      ],
+      "to_pitches": [
+        50,
+        38
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 50,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        215,
+        216
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 51,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        219,
+        220
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        38
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 52,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        221,
+        222
+      ],
+      "from_pitches": [
+        66,
+        57
+      ],
+      "to_pitches": [
+        71,
+        59
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 53,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        231,
+        232
+      ],
+      "from_pitches": [
+        64,
+        40
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 54,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        233,
+        234
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 55,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        237,
+        238
+      ],
+      "from_pitches": [
+        62,
+        43
+      ],
+      "to_pitches": [
+        59,
+        47
+      ]
+    },
+    "assessment": "m.40: inner alto D\u2013B settles into G/B while bass G\u2013B rises. A tonic inversion and inward third, under a sustained soprano; retained inner-voice cadence."
+  },
+  {
+    "id": 56,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        239,
+        240
+      ],
+      "from_pitches": [
+        67,
+        59
+      ],
+      "to_pitches": [
+        71,
+        64
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 57,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        243,
+        244
+      ],
+      "from_pitches": [
+        55,
+        40
+      ],
+      "to_pitches": [
+        57,
+        45
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 58,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        245,
+        246
+      ],
+      "from_pitches": [
+        72,
+        64
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 59,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        255,
+        256
+      ],
+      "from_pitches": [
+        64,
+        40
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 60,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        257,
+        258
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 61,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "st",
+      "ticks": [
+        261,
+        262
+      ],
+      "from_pitches": [
+        67,
+        55
+      ],
+      "to_pitches": [
+        69,
+        62
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 62,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        263,
+        264
+      ],
+      "from_pitches": [
+        71,
+        38
+      ],
+      "to_pitches": [
+        72,
+        48
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 63,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        263,
+        264
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        48
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 64,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        265,
+        266
+      ],
+      "from_pitches": [
+        72,
+        67
+      ],
+      "to_pitches": [
+        71,
+        64
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 65,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "ab",
+      "ticks": [
+        269,
+        270
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 66,
+    "finding": {
+      "check": "instantaneous_battuta",
+      "voices": "st",
+      "ticks": [
+        275,
+        276
+      ],
+      "from_pitches": [
+        69,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 67,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        275,
+        276
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 68,
+    "finding": {
+      "check": "instantaneous_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        281,
+        282
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 69,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        26,
+        28
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 70,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        30,
+        32
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 71,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "sb",
+      "ticks": [
+        36,
+        38
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 72,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        40,
+        42
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        66,
+        54
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 73,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        40,
+        42
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 74,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        42,
+        44
+      ],
+      "from_pitches": [
+        66,
+        62
+      ],
+      "to_pitches": [
+        64,
+        57
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 75,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        46,
+        48
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 76,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        52,
+        54
+      ],
+      "from_pitches": [
+        60,
+        45
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 77,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        64,
+        66
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 78,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        64,
+        66
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 79,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        74,
+        76
+      ],
+      "from_pitches": [
+        67,
+        40
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 80,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        76,
+        78
+      ],
+      "from_pitches": [
+        60,
+        52
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 81,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        80,
+        82
+      ],
+      "from_pitches": [
+        54,
+        45
+      ],
+      "to_pitches": [
+        55,
+        48
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 82,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        82,
+        84
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 83,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        86,
+        88
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 84,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        88,
+        90
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 85,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        88,
+        90
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 86,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        94,
+        96
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 87,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "sb",
+      "ticks": [
+        96,
+        98
+      ],
+      "from_pitches": [
+        74,
+        43
+      ],
+      "to_pitches": [
+        71,
+        47
+      ]
+    },
+    "assessment": "m.17: fixed D\u2013B\u2013D cantus over G\u2013B\u2013D bass. Contrary thirds reach the B-minor chord on beat 2; the bass arpeggio and returning soprano shape justify the local octave."
+  },
+  {
+    "id": 88,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        98,
+        100
+      ],
+      "from_pitches": [
+        62,
+        47
+      ],
+      "to_pitches": [
+        57,
+        38
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 89,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "at",
+      "ticks": [
+        102,
+        104
+      ],
+      "from_pitches": [
+        66,
+        57
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 90,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        106,
+        108
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 91,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "tb",
+      "ticks": [
+        106,
+        108
+      ],
+      "from_pitches": [
+        57,
+        38
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 92,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        112,
+        114
+      ],
+      "from_pitches": [
+        71,
+        55
+      ],
+      "to_pitches": [
+        69,
+        57
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 93,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "sb",
+      "ticks": [
+        116,
+        118
+      ],
+      "from_pitches": [
+        69,
+        45
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "m.20: fixed cantus A\u2013D closes the phrase over A7\u2013D7. Opposite bass motion supports the dominant preparation while inner tendency tones resolve; retained phrase-ending octave, not parallel octaves."
+  },
+  {
+    "id": 94,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        118,
+        120
+      ],
+      "from_pitches": [
+        62,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 95,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        122,
+        124
+      ],
+      "from_pitches": [
+        67,
+        40
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 96,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        124,
+        126
+      ],
+      "from_pitches": [
+        60,
+        52
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 97,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        126,
+        128
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 98,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        136,
+        138
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 99,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        136,
+        138
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 100,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        142,
+        144
+      ],
+      "from_pitches": [
+        72,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Quarter reduction deletes the soprano\u2019s intermediate eighth: the actual arrival is stepwise (C\u2013F#\u2013G in the fixed tune, or A\u2013B\u2013C). Actual-event outer-leap check passes."
+  },
+  {
+    "id": 101,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        144,
+        146
+      ],
+      "from_pitches": [
+        62,
+        43
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 102,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        148,
+        150
+      ],
+      "from_pitches": [
+        69,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 103,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        148,
+        150
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 104,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        160,
+        162
+      ],
+      "from_pitches": [
+        69,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 105,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        160,
+        162
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 106,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        172,
+        174
+      ],
+      "from_pitches": [
+        63,
+        47
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 107,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        184,
+        186
+      ],
+      "from_pitches": [
+        63,
+        47
+      ],
+      "to_pitches": [
+        64,
+        52
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 108,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        186,
+        188
+      ],
+      "from_pitches": [
+        64,
+        52
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 109,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        194,
+        196
+      ],
+      "from_pitches": [
+        59,
+        48
+      ],
+      "to_pitches": [
+        57,
+        38
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 110,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "at",
+      "ticks": [
+        196,
+        198
+      ],
+      "from_pitches": [
+        66,
+        57
+      ],
+      "to_pitches": [
+        62,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 111,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "tb",
+      "ticks": [
+        196,
+        198
+      ],
+      "from_pitches": [
+        57,
+        38
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 112,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "sb",
+      "ticks": [
+        198,
+        200
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        69,
+        45
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 113,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        202,
+        204
+      ],
+      "from_pitches": [
+        62,
+        38
+      ],
+      "to_pitches": [
+        60,
+        48
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 114,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        206,
+        208
+      ],
+      "from_pitches": [
+        55,
+        52
+      ],
+      "to_pitches": [
+        52,
+        45
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 115,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        208,
+        210
+      ],
+      "from_pitches": [
+        67,
+        52
+      ],
+      "to_pitches": [
+        66,
+        54
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 116,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "sb",
+      "ticks": [
+        210,
+        212
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        64,
+        40
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 117,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        212,
+        214
+      ],
+      "from_pitches": [
+        55,
+        40
+      ],
+      "to_pitches": [
+        50,
+        38
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 118,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        214,
+        216
+      ],
+      "from_pitches": [
+        66,
+        50
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 119,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "ab",
+      "ticks": [
+        218,
+        220
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        38
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 120,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "st",
+      "ticks": [
+        220,
+        222
+      ],
+      "from_pitches": [
+        66,
+        57
+      ],
+      "to_pitches": [
+        71,
+        59
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 121,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        222,
+        224
+      ],
+      "from_pitches": [
+        59,
+        43
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 122,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        230,
+        232
+      ],
+      "from_pitches": [
+        66,
+        40
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Quarter reduction omits E in the alto F#\u2013E\u2013D descent. The actual octave arrival is stepwise; the accented 9\u20138 figure and subsequent dominant chord are separately checked."
+  },
+  {
+    "id": 123,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        232,
+        234
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 124,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        236,
+        238
+      ],
+      "from_pitches": [
+        64,
+        43
+      ],
+      "to_pitches": [
+        59,
+        47
+      ]
+    },
+    "assessment": "m.40: inner alto D\u2013B settles into G/B while bass G\u2013B rises. A tonic inversion and inward third, under a sustained soprano; retained inner-voice cadence."
+  },
+  {
+    "id": 125,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        238,
+        240
+      ],
+      "from_pitches": [
+        67,
+        59
+      ],
+      "to_pitches": [
+        71,
+        64
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 126,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        242,
+        244
+      ],
+      "from_pitches": [
+        55,
+        40
+      ],
+      "to_pitches": [
+        57,
+        45
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 127,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        244,
+        246
+      ],
+      "from_pitches": [
+        72,
+        64
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 128,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        246,
+        248
+      ],
+      "from_pitches": [
+        59,
+        43
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 129,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        254,
+        256
+      ],
+      "from_pitches": [
+        66,
+        40
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Quarter reduction omits E in the alto F#\u2013E\u2013D descent. The actual octave arrival is stepwise; the accented 9\u20138 figure and subsequent dominant chord are separately checked."
+  },
+  {
+    "id": 130,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        256,
+        258
+      ],
+      "from_pitches": [
+        57,
+        50
+      ],
+      "to_pitches": [
+        55,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 131,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "st",
+      "ticks": [
+        260,
+        262
+      ],
+      "from_pitches": [
+        67,
+        55
+      ],
+      "to_pitches": [
+        69,
+        62
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 132,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        262,
+        264
+      ],
+      "from_pitches": [
+        69,
+        38
+      ],
+      "to_pitches": [
+        72,
+        48
+      ]
+    },
+    "assessment": "Quarter reduction deletes the soprano\u2019s intermediate eighth: the actual arrival is stepwise (C\u2013F#\u2013G in the fixed tune, or A\u2013B\u2013C). Actual-event outer-leap check passes."
+  },
+  {
+    "id": 133,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        262,
+        264
+      ],
+      "from_pitches": [
+        66,
+        38
+      ],
+      "to_pitches": [
+        67,
+        48
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 134,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        264,
+        266
+      ],
+      "from_pitches": [
+        72,
+        67
+      ],
+      "to_pitches": [
+        71,
+        64
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 135,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "ab",
+      "ticks": [
+        268,
+        270
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 136,
+    "finding": {
+      "check": "pulse_battuta",
+      "voices": "st",
+      "ticks": [
+        274,
+        276
+      ],
+      "from_pitches": [
+        69,
+        54
+      ],
+      "to_pitches": [
+        67,
+        55
+      ]
+    },
+    "assessment": "Stepwise upper voice and contrary lower motion arrive at an octave, not a unison. Retained contrary-motion articulation; no parallel movement or crossing."
+  },
+  {
+    "id": 137,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        274,
+        276
+      ],
+      "from_pitches": [
+        69,
+        50
+      ],
+      "to_pitches": [
+        67,
+        43
+      ]
+    },
+    "assessment": "Outer soprano approaches by step. I retain this conventional tonal arrival while rejecting outer similar-motion leaps and all consecutive parallel perfects."
+  },
+  {
+    "id": 138,
+    "finding": {
+      "check": "pulse_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        280,
+        282
+      ],
+      "from_pitches": [
+        64,
+        48
+      ],
+      "to_pitches": [
+        62,
+        43
+      ]
+    },
+    "assessment": "Nonparallel arrival involving an inner voice. Retained for the chord-tone destination and independent line; no crossing/overlap, bounded leaps, and a checked harmonic or ornamental context. The blanket all-pair direct-perfect ban is not adopted for this tonal four-part texture."
+  },
+  {
+    "id": 139,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        30,
+        31,
+        32
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    "assessment": "Soprano B\u2013D arpeggiation precedes alto D\u2013G within G major. Independent entrances converge on a chordal fifth; no perfect-to-perfect succession."
+  },
+  {
+    "id": 140,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        70,
+        72,
+        73
+      ],
+      "from_pitches": [
+        62,
+        59
+      ],
+      "to_pitches": [
+        67,
+        60
+      ]
+    },
+    "assessment": "Arrival contains the alto B\u2013C\u2013B neighbour over E minor, not a structural fifth progression; the ornament is separately checked."
+  },
+  {
+    "id": 141,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 7,
+      "voices": "sa",
+      "ticks": [
+        126,
+        127,
+        128
+      ],
+      "from_pitches": [
+        71,
+        62
+      ],
+      "to_pitches": [
+        74,
+        67
+      ]
+    },
+    "assessment": "The repeated tune arpeggiates B\u2013D before alto D\u2013G in G major. Retained motivic repetition with staggered chord-tone arrivals."
+  },
+  {
+    "id": 142,
+    "finding": {
+      "check": "stagger_battuta",
+      "voices": "st",
+      "ticks": [
+        83,
+        84,
+        85
+      ],
+      "from_pitches": [
+        72,
+        55
+      ],
+      "to_pitches": [
+        71,
+        59
+      ]
+    },
+    "assessment": "Cantus C\u2013B resolves while tenor subsequently arpeggiates G\u2013B in the tonic. Stepwise soprano arrival, no parallel progression."
+  },
+  {
+    "id": 143,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        54,
+        55,
+        58
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        74,
+        50
+      ]
+    },
+    "assessment": "Cantus D arrives three eighths before the bass D; a held melody note is reharmonized from G to D. Genuine oblique harmonic change, not consecutive parallel octaves."
+  },
+  {
+    "id": 144,
+    "finding": {
+      "check": "stagger_battuta",
+      "voices": "sb",
+      "ticks": [
+        80,
+        82,
+        83
+      ],
+      "from_pitches": [
+        74,
+        45
+      ],
+      "to_pitches": [
+        72,
+        48
+      ]
+    },
+    "assessment": "The endpoints omit the prepared D\u2013C 9\u20138 suspension over the already-arrived C bass. Resolution is independently checked."
+  },
+  {
+    "id": 145,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        126,
+        127,
+        130
+      ],
+      "from_pitches": [
+        71,
+        43
+      ],
+      "to_pitches": [
+        74,
+        50
+      ]
+    },
+    "assessment": "Same cantus-held D and later dominant-bass arrival as m.10; retained phrase identity."
+  },
+  {
+    "id": 146,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "sb",
+      "ticks": [
+        152,
+        154,
+        155
+      ],
+      "from_pitches": [
+        67,
+        40
+      ],
+      "to_pitches": [
+        71,
+        47
+      ]
+    },
+    "assessment": "Bass B arrives before the soprano G\u2013B chordal arpeggiation in G/B; the prior interval is a third, not an octave."
+  },
+  {
+    "id": 147,
+    "finding": {
+      "check": "stagger_battuta",
+      "voices": "ab",
+      "ticks": [
+        67,
+        68,
+        70
+      ],
+      "from_pitches": [
+        62,
+        45
+      ],
+      "to_pitches": [
+        59,
+        47
+      ]
+    },
+    "assessment": "Passing bass A reaches B first; alto then moves D\u2013B within G/B. The bass ornament and common harmony explain the delayed octave."
+  },
+  {
+    "id": 148,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 7,
+      "voices": "ab",
+      "ticks": [
+        68,
+        70,
+        72
+      ],
+      "from_pitches": [
+        62,
+        47
+      ],
+      "to_pitches": [
+        59,
+        40
+      ]
+    },
+    "assessment": "Alto reaches B while bass still supports G/B, then holds B into E minor. Common-tone connection across I6\u2013vi."
+  },
+  {
+    "id": 149,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        70,
+        72,
+        74
+      ],
+      "from_pitches": [
+        55,
+        47
+      ],
+      "to_pitches": [
+        52,
+        40
+      ]
+    },
+    "assessment": "Bass E arrives before tenor leaves G for E: tenor arpeggiation inside the established E-minor chord, not paired parallel octave movement."
+  },
+  {
+    "id": 150,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 7,
+      "voices": "tb",
+      "ticks": [
+        194,
+        195,
+        196
+      ],
+      "from_pitches": [
+        59,
+        48
+      ],
+      "to_pitches": [
+        57,
+        38
+      ]
+    },
+    "assessment": "Tenor B appoggiatura resolves to A over C, then the bass changes to D while A is held. The two endpoints omit the checked resolution."
+  },
+  {
+    "id": 151,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        222,
+        223,
+        224
+      ],
+      "from_pitches": [
+        59,
+        43
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Tenor cantus B\u2013D precedes the dominant bass. Held cantus note is reharmonized; upper voices remain independent."
+  },
+  {
+    "id": 152,
+    "finding": {
+      "check": "stagger_direct",
+      "interval_class": 0,
+      "voices": "tb",
+      "ticks": [
+        246,
+        247,
+        248
+      ],
+      "from_pitches": [
+        59,
+        43
+      ],
+      "to_pitches": [
+        62,
+        50
+      ]
+    },
+    "assessment": "Repeated tenor-cantus B\u2013D and delayed dominant bass, as m.38."
+  },
+  {
+    "id": 153,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 35,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        72,
+        66,
+        57,
+        0
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 154,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 59,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        72,
+        66,
+        57,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 155,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 63,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        71,
+        66,
+        60,
+        47
+      ]
+    },
+    "assessment": "Transient interval caused by the explicitly checked nonchord treatment in t"
+  },
+  {
+    "id": 156,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 107,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        72,
+        66,
+        57,
+        38
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 157,
+    "finding": {
+      "check": "allowed_pitch_classes",
+      "tick": 116,
+      "voice": "a",
+      "pitch": 61
+    },
+    "assessment": "Secondary leading tone C# or D#; the next note in this same voice rises by semitone, independently checked. It establishes the local dominant rather than accidental chromaticism."
+  },
+  {
+    "id": 158,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 116,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        61,
+        55,
+        45
+      ]
+    },
+    "assessment": "A7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 159,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 118,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        62,
+        60,
+        54,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 160,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 119,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        62,
+        60,
+        54,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 161,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 131,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        72,
+        66,
+        57,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 162,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 135,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        71,
+        66,
+        60,
+        47
+      ]
+    },
+    "assessment": "Transient interval caused by the explicitly checked nonchord treatment in t"
+  },
+  {
+    "id": 163,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 148,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        60,
+        54,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 164,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 149,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        62,
+        60,
+        54,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 165,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 160,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        60,
+        54,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 166,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 161,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        62,
+        60,
+        54,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 167,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 169,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        60,
+        55,
+        52
+      ]
+    },
+    "assessment": "Transient interval caused by the explicitly checked nonchord treatment in s,a"
+  },
+  {
+    "id": 168,
+    "finding": {
+      "check": "allowed_pitch_classes",
+      "tick": 172,
+      "voice": "a",
+      "pitch": 63
+    },
+    "assessment": "Secondary leading tone C# or D#; the next note in this same voice rises by semitone, independently checked. It establishes the local dominant rather than accidental chromaticism."
+  },
+  {
+    "id": 169,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 172,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        63,
+        57,
+        47
+      ]
+    },
+    "assessment": "B7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 170,
+    "finding": {
+      "check": "allowed_pitch_classes",
+      "tick": 173,
+      "voice": "a",
+      "pitch": 63
+    },
+    "assessment": "Secondary leading tone C# or D#; the next note in this same voice rises by semitone, independently checked. It establishes the local dominant rather than accidental chromaticism."
+  },
+  {
+    "id": 171,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 173,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        63,
+        57,
+        47
+      ]
+    },
+    "assessment": "B7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 172,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 177,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        66,
+        60,
+        45
+      ]
+    },
+    "assessment": "Transient interval caused by the explicitly checked nonchord treatment in a"
+  },
+  {
+    "id": 173,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 179,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        64,
+        57,
+        48
+      ]
+    },
+    "assessment": "Transient interval caused by the explicitly checked nonchord treatment in s"
+  },
+  {
+    "id": 174,
+    "finding": {
+      "check": "allowed_pitch_classes",
+      "tick": 184,
+      "voice": "a",
+      "pitch": 63
+    },
+    "assessment": "Secondary leading tone C# or D#; the next note in this same voice rises by semitone, independently checked. It establishes the local dominant rather than accidental chromaticism."
+  },
+  {
+    "id": 175,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 184,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        63,
+        57,
+        47
+      ]
+    },
+    "assessment": "B7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 176,
+    "finding": {
+      "check": "allowed_pitch_classes",
+      "tick": 185,
+      "voice": "a",
+      "pitch": 63
+    },
+    "assessment": "Secondary leading tone C# or D#; the next note in this same voice rises by semitone, independently checked. It establishes the local dominant rather than accidental chromaticism."
+  },
+  {
+    "id": 177,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 185,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        63,
+        57,
+        47
+      ]
+    },
+    "assessment": "B7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 178,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 205,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        60,
+        55,
+        48
+      ]
+    },
+    "assessment": "Transient interval caused by the explicitly checked nonchord treatment in s"
+  },
+  {
+    "id": 179,
+    "finding": {
+      "check": "allowed_pitch_classes",
+      "tick": 208,
+      "voice": "a",
+      "pitch": 61
+    },
+    "assessment": "Secondary leading tone C# or D#; the next note in this same voice rises by semitone, independently checked. It establishes the local dominant rather than accidental chromaticism."
+  },
+  {
+    "id": 180,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 208,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        67,
+        61,
+        52,
+        45
+      ]
+    },
+    "assessment": "A7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 181,
+    "finding": {
+      "check": "allowed_pitch_classes",
+      "tick": 209,
+      "voice": "a",
+      "pitch": 61
+    },
+    "assessment": "Secondary leading tone C# or D#; the next note in this same voice rises by semitone, independently checked. It establishes the local dominant rather than accidental chromaticism."
+  },
+  {
+    "id": 182,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 209,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        67,
+        61,
+        52,
+        45
+      ]
+    },
+    "assessment": "A7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 183,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 214,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        60,
+        50,
+        38
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters); D7 resolves deceptively to E minor at the tenor entry"
+  },
+  {
+    "id": 184,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 215,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        66,
+        60,
+        50,
+        38
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters); D7 resolves deceptively to E minor at the tenor entry"
+  },
+  {
+    "id": 185,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 227,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        66,
+        60,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 186,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 251,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        66,
+        60,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 187,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 274,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        60,
+        54,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 188,
+    "finding": {
+      "check": "licensed_harmonic_tritones",
+      "tick": 275,
+      "reason": "tritone is not the configured complete V65",
+      "pitches": [
+        69,
+        60,
+        54,
+        50
+      ]
+    },
+    "assessment": "D7 tendency tones resolve by step in their original voices (within two quarters)"
+  },
+  {
+    "id": 189,
+    "finding": {
+      "check": "no_melodic_tritone",
+      "voice": "s",
+      "tick": 143,
+      "semitones": -6
+    },
+    "assessment": "Literal source-tune C5\u2013F#4\u2013G4. Preserving its identity warrants this explicit melodic exception; F# rises immediately to G."
+  },
+  {
+    "id": 190,
+    "finding": {
+      "check": "max_leaps",
+      "voice": "s",
+      "tick": 192,
+      "semitones": 9
+    },
+    "assessment": "G4\u2013E5 creates the sole high E, immediately reversing through D5\u2013C5. A bounded expressive sixth, not an uncontrolled line."
+  }
+]

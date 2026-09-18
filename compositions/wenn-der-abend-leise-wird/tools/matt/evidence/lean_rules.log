@@ -1,0 +1,13 @@
+Compiler executable normalized to `lean` for portability; tested version 4.34.0.
+
+$ lean -o Counterpoint.olean Counterpoint.lean
+Exit status: 0
+
+$ LEAN_PATH=. lean tests/Rules.lean
+'RuleFixtures.cadenceAccepted' does not depend on any axioms
+'RuleFixtures.dTransposition' does not depend on any axioms
+'RuleFixtures.lateResolutionFails' does not depend on any axioms
+'RuleFixtures.requireIndependentRejectsHomophony' does not depend on any axioms
+Exit status: 0
+
+Theorem fixtures compiled: 66

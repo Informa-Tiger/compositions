@@ -1,0 +1,2958 @@
+{
+  "format": "composition",
+  "schemaVersion": 1,
+  "id": "wenn-der-abend-leise-wird",
+  "version": "v003",
+  "title": "Wenn der Abend leise wird",
+  "subtitle": "Choral fantasia on Es wird scho glei dumpa",
+  "composer": "New composition: Codex (2026)",
+  "tuneCredit": "Tune: Anton Reidinger (1839\u20131912)",
+  "revision": {
+    "label": "Final musical review",
+    "localSourceCommit": "54fc0e3"
+  },
+  "meter": "3/4",
+  "key": "G",
+  "voices": [
+    {
+      "name": "Soprano",
+      "color": "#e9b95b",
+      "clef": "treble",
+      "shortName": "S.",
+      "program": 19,
+      "pan": 48,
+      "volume": 95,
+      "velocity": 78
+    },
+    {
+      "name": "Alto",
+      "color": "#69c6dd",
+      "clef": "treble",
+      "shortName": "A.",
+      "program": 19,
+      "pan": 72,
+      "volume": 79,
+      "velocity": 66
+    },
+    {
+      "name": "Tenor",
+      "color": "#bda0ef",
+      "clef": "bass",
+      "shortName": "T.",
+      "program": 19,
+      "pan": 56,
+      "volume": 84,
+      "velocity": 71
+    },
+    {
+      "name": "Bass",
+      "color": "#e28282",
+      "clef": "bass",
+      "shortName": "B.",
+      "program": 19,
+      "pan": 66,
+      "volume": 88,
+      "velocity": 72
+    }
+  ],
+  "measures": [
+    [
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D5",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D5",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "C5",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "R",
+          "duration": "3.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E3",
+          "duration": "2.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "F#3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D3",
+          "duration": "3.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D5",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D5",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "C5",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "G4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A2",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E3",
+          "duration": "2.0"
+        }
+      ],
+      [
+        {
+          "pitch": "E2",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "A2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D5",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D5",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "C5",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D5",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B2",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "D5",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D5",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "D5",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "C5",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "C5",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "2.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "A4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D5",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D5",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "C5",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "C5",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "F#3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "D5",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "F#3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "E3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "C4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "A3",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "C3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "E5",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D5",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "C5",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D5",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "E4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "C3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "2.0"
+        }
+      ],
+      [
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "2.0"
+        }
+      ],
+      [
+        {
+          "pitch": "F#3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "E2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "2.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "2.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "B2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C5",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "E4",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "G3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "E2",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "A2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "D5",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "2.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E2",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "D3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "D2",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "C5",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "B4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "A4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "E4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "D4",
+          "duration": "0.5"
+        },
+        {
+          "pitch": "C4",
+          "duration": "2.0"
+        }
+      ],
+      [
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#4",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "C4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "A3",
+          "duration": "1.0"
+        },
+        {
+          "pitch": "F#3",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D3",
+          "duration": "3.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "E4",
+          "duration": "1.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G3",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "2.0"
+        },
+        {
+          "pitch": "C3",
+          "duration": "1.0"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "pitch": "G4",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "D4",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "B3",
+          "duration": "3.0"
+        }
+      ],
+      [
+        {
+          "pitch": "G2",
+          "duration": "3.0"
+        }
+      ]
+    ]
+  ],
+  "ties": [
+    {
+      "voice": 0,
+      "beat": "135"
+    },
+    {
+      "voice": 0,
+      "beat": "141"
+    },
+    {
+      "voice": 1,
+      "beat": "36"
+    },
+    {
+      "voice": 1,
+      "beat": "51"
+    },
+    {
+      "voice": 1,
+      "beat": "72"
+    },
+    {
+      "voice": 1,
+      "beat": "78"
+    },
+    {
+      "voice": 1,
+      "beat": "84"
+    },
+    {
+      "voice": 1,
+      "beat": "117"
+    },
+    {
+      "voice": 1,
+      "beat": "129"
+    },
+    {
+      "voice": 2,
+      "beat": "36"
+    },
+    {
+      "voice": 2,
+      "beat": "51"
+    },
+    {
+      "voice": 2,
+      "beat": "84"
+    },
+    {
+      "voice": 2,
+      "beat": "90"
+    }
+  ],
+  "tempos": [
+    {
+      "bar": 1,
+      "bpm": 88
+    },
+    {
+      "bar": 7,
+      "bpm": 86
+    },
+    {
+      "bar": 9,
+      "bpm": 88
+    },
+    {
+      "bar": 12,
+      "bpm": 85
+    },
+    {
+      "bar": 13,
+      "bpm": 88
+    },
+    {
+      "bar": 16,
+      "bpm": 85
+    },
+    {
+      "bar": 17,
+      "bpm": 88
+    },
+    {
+      "bar": 20,
+      "bpm": 84
+    },
+    {
+      "bar": 21,
+      "bpm": 88
+    },
+    {
+      "bar": 24,
+      "bpm": 84
+    },
+    {
+      "bar": 25,
+      "bpm": 86
+    },
+    {
+      "bar": 28,
+      "bpm": 80
+    },
+    {
+      "bar": 29,
+      "bpm": 90
+    },
+    {
+      "bar": 35,
+      "bpm": 86
+    },
+    {
+      "bar": 36,
+      "bpm": 81
+    },
+    {
+      "bar": 37,
+      "bpm": 88
+    },
+    {
+      "bar": 40,
+      "bpm": 84
+    },
+    {
+      "bar": 41,
+      "bpm": 88
+    },
+    {
+      "bar": 44,
+      "bpm": 82
+    },
+    {
+      "bar": 45,
+      "bpm": 80
+    },
+    {
+      "bar": 46,
+      "bpm": 76
+    },
+    {
+      "bar": 47,
+      "bpm": 69
+    },
+    {
+      "bar": 48,
+      "bpm": 60
+    }
+  ],
+  "sections": [
+    {
+      "bar": 1,
+      "name": "I. Praeambulum"
+    },
+    {
+      "bar": 9,
+      "name": "II. Cantus in soprano"
+    },
+    {
+      "bar": 29,
+      "name": "III. Ombra"
+    },
+    {
+      "bar": 37,
+      "name": "IV. Cantus in tenor"
+    },
+    {
+      "bar": 45,
+      "name": "V. Abendsegen"
+    }
+  ],
+  "cantus": [
+    {
+      "voice": 0,
+      "start": 23,
+      "end": 83,
+      "label": "Complete cantus firmus \u00b7 original rhythm"
+    },
+    {
+      "voice": 2,
+      "start": 107,
+      "end": 131,
+      "label": "Cantus firmus \u00b7 opening phrases in tenor"
+    }
+  ],
+  "engraving": {
+    "staffSize": 16.5,
+    "pageBreakAfter": [
+      16,
+      32
+    ],
+    "systemEvery": 4,
+    "paper": "a4",
+    "tagline": "Cantus firmus: soprano, mm. 8 (beat 3)\u201328; tenor, mm. 36 (beat 3)\u201344.",
+    "tempoText": "Andante, con moto",
+    "fermataFinal": true
+  },
+  "render": {
+    "soundfont": "assets/GeneralUser-GS.sf2",
+    "soundfontSha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+    "gain": 0.6,
+    "sampleRate": 48000,
+    "reverb": {
+      "room-size": 0.72,
+      "damp": 0.5,
+      "width": 80,
+      "level": 0.28
+    },
+    "chorus": false,
+    "articulationMaxBeats": 0.045,
+    "articulationFraction": 0.07,
+    "cantusVelocityBoost": 5,
+    "loudnessLUFS": -18,
+    "truePeakDB": -1.5,
+    "loudnessRange": 8,
+    "fadeDelaySeconds": 1,
+    "fadeSeconds": 2,
+    "mp3Bitrate": "256k",
+    "video": {
+      "width": 1440,
+      "height": 900,
+      "fps": 24,
+      "windowSeconds": 16,
+      "crf": 20,
+      "audioBitrate": "192k"
+    }
+  }
+}

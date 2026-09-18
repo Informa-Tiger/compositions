@@ -1,0 +1,48 @@
+test_compound_melodic_tritone_and_max_leap (test_audit.RuleTests) ... ok
+test_compressed_pair_trace_catches_delayed_stagger (test_audit.RuleTests) ... ok
+test_crossing_and_temporal_overlap_are_distinct (test_audit.RuleTests) ... ok
+test_direct_fifth_is_rejected_even_with_upper_voice_step (test_audit.RuleTests) ... ok
+test_hold_end_boundary_is_not_independent (test_audit.RuleTests) ... ok
+test_independence_needs_one_witness_voice_not_union_of_different_holds (test_audit.RuleTests) ... ok
+test_independence_requires_changed_pitch_not_reattack_or_entry (test_audit.RuleTests) ... ok
+test_inward_octave_battuta (test_audit.RuleTests) ... ok
+test_major_resolution_does_not_silently_license_minor_third (test_audit.RuleTests) ... ok
+test_major_v65_resolution_with_held_critical_pitches (test_audit.RuleTests) ... ok
+test_minor_resolution_and_transposition (test_audit.RuleTests) ... ok
+test_parallel_octaves_and_fifths_are_distinct_diagnostics (test_audit.RuleTests) ... ok
+test_pitch_mutations_violate_range_scale_and_tritone_rules (test_audit.RuleTests) ... ok
+test_premature_critical_movement_and_rest_are_rejected (test_audit.RuleTests) ... ok
+test_pulse_reduction_has_configurable_phase_and_stride (test_audit.RuleTests) ... ok
+test_resolution_exactly_at_wait_limit_is_allowed (test_audit.RuleTests) ... ok
+test_rests_break_melodic_continuity (test_audit.RuleTests) ... ok
+test_static_consonance_passes_and_audit_does_not_mutate_input (test_audit.RuleTests) ... ok
+test_terminal_tritone_is_unresolved (test_audit.RuleTests) ... ok
+test_v65_exact_chord_and_root_position_tonic_are_required (test_audit.RuleTests) ... ok
+test_bad_parameters_are_errors_not_coercions (test_audit.ValidationTests) ... ok
+test_cli_writes_report_and_failure_exit_status (test_audit.ValidationTests) ... ok
+test_every_required_config_field_is_required (test_audit.ValidationTests) ... ok
+test_exact_end_boundary_and_midi_extremes_are_valid (test_audit.ValidationTests) ... ok
+test_malformed_notes_and_voice_keys_are_rejected (test_audit.ValidationTests) ... ok
+test_overlapping_and_unsorted_events_are_rejected (test_audit.ValidationTests) ... ok
+test_a_minor_study_uses_minor_third_and_leading_note (test_compose.ComposerTests) ... ok
+test_cluster_is_not_accepted_as_triad (test_compose.ComposerTests) ... ok
+test_contradictory_normal_and_v65_plans_fail (test_compose.ComposerTests) ... ok
+test_fixed_note_outside_key_fails_without_correction (test_compose.ComposerTests) ... ok
+test_fixed_note_rest_conflict_fails (test_compose.ComposerTests) ... ok
+test_forced_parallel_octaves_are_bounded_search_failure (test_compose.ComposerTests) ... ok
+test_incompatible_cadence_and_plan_fail (test_compose.ComposerTests) ... ok
+test_independent_c_and_d_studies_and_transposition (test_compose.ComposerTests) ... ok
+test_motif_expands_with_transposition_and_augmentation (test_compose.ComposerTests) ... ok
+test_non_boolean_complete_flag_fails (test_compose.ComposerTests) ... ok
+test_overlapping_fixed_notes_fail (test_compose.ComposerTests) ... ok
+test_planned_v65_critical_voices_hold_and_resolve (test_compose.ComposerTests) ... ok
+test_requested_rest_is_preserved (test_compose.ComposerTests) ... ok
+test_certificate_does_not_interpret_title_as_lean (test_pipeline.PipelineTests) ... ok
+test_export_and_certificate_refuse_mutated_pitch (test_pipeline.PipelineTests) ... ok
+test_generated_studies_round_trip_exactly (test_pipeline.PipelineTests) ... ok
+test_rearticulation_rest_and_septuplet_grid (test_pipeline.PipelineTests) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 0.658s
+
+OK

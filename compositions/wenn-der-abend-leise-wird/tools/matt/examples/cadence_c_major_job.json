@@ -1,0 +1,73 @@
+{
+  "title": "Planned V65-to-I example",
+  "config": {
+    "total_ticks": 4,
+    "ticks_per_quarter": 2,
+    "tonic_pc": 0,
+    "tonic_third": 4,
+    "allowed_pcs": [
+      0,
+      2,
+      4,
+      5,
+      7,
+      9,
+      11
+    ],
+    "ranges": [
+      [
+        67,
+        79
+      ],
+      [
+        60,
+        72
+      ],
+      [
+        52,
+        67
+      ],
+      [
+        40,
+        55
+      ]
+    ],
+    "max_leaps": [
+      7,
+      7,
+      7,
+      12
+    ],
+    "pulse_stride": 2,
+    "pulse_offset": 0,
+    "tritone_max_wait": 2,
+    "require_independence": false,
+    "min_independent_changes": 2
+  },
+  "fixed_notes": {
+    "s": [
+      {
+        "start": 0,
+        "dur": 2,
+        "pitch": 74
+      },
+      {
+        "start": 2,
+        "dur": 2,
+        "pitch": 76
+      }
+    ]
+  },
+  "max_spacing": [
+    12,
+    12,
+    19
+  ],
+  "cadences": [
+    {
+      "start": 0,
+      "resolve": 2,
+      "end": 4
+    }
+  ]
+}

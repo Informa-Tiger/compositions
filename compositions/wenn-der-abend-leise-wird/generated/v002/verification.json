@@ -1,0 +1,31 @@
+{
+  "schema_and_timing_valid": true,
+  "playback_cache_exact": true,
+  "midi_roundtrip_exact": true,
+  "musicxml_roundtrip_exact": true,
+  "complete_cantus_exact": true,
+  "notes": 537,
+  "strict_checks": {
+    "schema_valid": true,
+    "events_well_formed": true,
+    "instantaneous_direct": false,
+    "instantaneous_parallel": true,
+    "instantaneous_battuta": false,
+    "pulse_direct": false,
+    "pulse_parallel": true,
+    "pulse_battuta": false,
+    "stagger_direct": false,
+    "stagger_parallel": true,
+    "stagger_battuta": false,
+    "no_crossing": true,
+    "ranges": true,
+    "allowed_pitch_classes": false,
+    "no_melodic_tritone": false,
+    "licensed_harmonic_tritones": false,
+    "rhythmic_independence": true,
+    "max_leaps": false,
+    "adjacent_voice_overlap": true
+  },
+  "strict_findings": 208,
+  "scope": "Strict checker results are reported without waiving failures; export integrity is checked separately."
+}

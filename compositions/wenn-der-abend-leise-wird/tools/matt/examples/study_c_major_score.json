@@ -1,0 +1,243 @@
+{
+  "title": "Independent voices: C-major study",
+  "config": {
+    "total_ticks": 24,
+    "ticks_per_quarter": 2,
+    "tonic_pc": 0,
+    "tonic_third": 4,
+    "allowed_pcs": [
+      0,
+      2,
+      4,
+      5,
+      7,
+      9,
+      11
+    ],
+    "ranges": [
+      [
+        67,
+        79
+      ],
+      [
+        60,
+        72
+      ],
+      [
+        52,
+        67
+      ],
+      [
+        40,
+        55
+      ]
+    ],
+    "max_leaps": [
+      7,
+      7,
+      7,
+      12
+    ],
+    "pulse_stride": 2,
+    "pulse_offset": 0,
+    "tritone_max_wait": 2,
+    "require_independence": true,
+    "min_independent_changes": 2
+  },
+  "voices": {
+    "s": [
+      {
+        "start": 0,
+        "dur": 4,
+        "pitch": 72
+      },
+      {
+        "start": 4,
+        "dur": 4,
+        "pitch": 74
+      },
+      {
+        "start": 8,
+        "dur": 4,
+        "pitch": 76
+      },
+      {
+        "start": 12,
+        "dur": 4,
+        "pitch": 74
+      },
+      {
+        "start": 16,
+        "dur": 4,
+        "pitch": 72
+      },
+      {
+        "start": 20,
+        "dur": 4,
+        "pitch": 72
+      }
+    ],
+    "a": [
+      {
+        "start": 0,
+        "dur": 1,
+        "pitch": 67
+      },
+      {
+        "start": 1,
+        "dur": 2,
+        "pitch": 69
+      },
+      {
+        "start": 3,
+        "dur": 6,
+        "pitch": 67
+      },
+      {
+        "start": 9,
+        "dur": 2,
+        "pitch": 64
+      },
+      {
+        "start": 11,
+        "dur": 6,
+        "pitch": 67
+      },
+      {
+        "start": 17,
+        "dur": 1,
+        "pitch": 64
+      },
+      {
+        "start": 18,
+        "dur": 1,
+        "pitch": 65
+      },
+      {
+        "start": 19,
+        "dur": 5,
+        "pitch": 64
+      }
+    ],
+    "t": [
+      {
+        "start": 0,
+        "dur": 2,
+        "pitch": 60
+      },
+      {
+        "start": 2,
+        "dur": 2,
+        "pitch": 64
+      },
+      {
+        "start": 4,
+        "dur": 1,
+        "pitch": 62
+      },
+      {
+        "start": 5,
+        "dur": 2,
+        "pitch": 59
+      },
+      {
+        "start": 7,
+        "dur": 10,
+        "pitch": 55
+      },
+      {
+        "start": 17,
+        "dur": 3,
+        "pitch": 57
+      },
+      {
+        "start": 20,
+        "dur": 4,
+        "pitch": 55
+      }
+    ],
+    "b": [
+      {
+        "start": 0,
+        "dur": 2,
+        "pitch": 48
+      },
+      {
+        "start": 2,
+        "dur": 1,
+        "pitch": 45
+      },
+      {
+        "start": 3,
+        "dur": 1,
+        "pitch": 48
+      },
+      {
+        "start": 4,
+        "dur": 4,
+        "pitch": 47
+      },
+      {
+        "start": 8,
+        "dur": 4,
+        "pitch": 48
+      },
+      {
+        "start": 12,
+        "dur": 4,
+        "pitch": 47
+      },
+      {
+        "start": 16,
+        "dur": 1,
+        "pitch": 52
+      },
+      {
+        "start": 17,
+        "dur": 1,
+        "pitch": 48
+      },
+      {
+        "start": 18,
+        "dur": 2,
+        "pitch": 45
+      },
+      {
+        "start": 20,
+        "dur": 4,
+        "pitch": 48
+      }
+    ]
+  },
+  "generation": {
+    "algorithm": "bounded SATB beam search",
+    "beam": 300,
+    "cost": -16.903,
+    "harmonies": [
+      "I",
+      "vi",
+      "vi",
+      "I",
+      "V",
+      "V",
+      "V",
+      "V",
+      "I",
+      "I",
+      "I",
+      "I",
+      "V",
+      "V",
+      "V",
+      "V",
+      "I",
+      "vi",
+      "IV",
+      "vi",
+      "I",
+      "I",
+      "I",
+      "I"
+    ]
+  }
+}
