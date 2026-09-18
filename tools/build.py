@@ -127,7 +127,7 @@ def build(source,media=True,video=True):
     if previous.get('sourceDataSha256')!=source_hash:(out/'lean-verification.txt').unlink(missing_ok=True)
     p=derive(d);snapshot=dict(d,playback=p)
     (out/'composition.json').write_text(json.dumps(snapshot,indent=2)+'\n');export(d,p,out)
-    (out/'index.html').write_text('<!doctype html><meta charset="utf-8"><title>'+d['title']+'</title><script>location.replace("../../../../player/?score="+encodeURIComponent("compositions/'+d['id']+'/generated/'+d['version']+'/composition.json"))</script><a href="composition.mp3">Listen</a>')
+    (out/'index.html').write_text('<!doctype html><meta charset="utf-8"><title>'+html.escape(d['title'])+'</title><script>location.replace("../../../../player/?composition='+d['id']+'&version='+d['version']+'")</script><a href="composition.mp3">Listen</a>')
     if media:
         run(['lilypond','-o',out/'composition',out/'composition.ly'])
         cfg=d['render'];sf=piece/cfg['soundfont'];assert digest(sf)==cfg['soundfontSha256'],'Soundfont hash mismatch';tmp=ROOT/'build'/d['id']/d['version'];tmp.mkdir(parents=True,exist_ok=True);raw=tmp/'organ.wav'

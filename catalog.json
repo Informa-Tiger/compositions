@@ -1,17 +1,20 @@
 [
   {
+    "composition": "wenn-der-abend-leise-wird",
     "title": "Wenn der Abend leise wird",
     "version": "v001",
     "label": "Original composition",
     "source": "compositions/wenn-der-abend-leise-wird/generated/v001/composition.json"
   },
   {
+    "composition": "wenn-der-abend-leise-wird",
     "title": "Wenn der Abend leise wird",
     "version": "v002",
     "label": "First counterpoint revision",
     "source": "compositions/wenn-der-abend-leise-wird/generated/v002/composition.json"
   },
   {
+    "composition": "wenn-der-abend-leise-wird",
     "title": "Wenn der Abend leise wird",
     "version": "v003",
     "label": "Final musical review",

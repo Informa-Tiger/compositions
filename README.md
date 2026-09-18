@@ -51,3 +51,12 @@ For local files, open the player through an HTTP server and select a JSON and it
 The checker can reject a piece that has documented stylistic exceptions. The final work remains rejected by the supplied strict predicate; no claim of formally certified Bach style is made. Blind Gemini assessments were also unreliable and are preserved with criticism rather than treated as validation.
 
 Matt's supplied toolkit is included unchanged under the composition's `tools/matt/` folder with the repository owner's explicit authorization. GeneralUser GS carries its own license. See [NOTICE](NOTICE.md). No private Slack messages, account credentials, or credential-bearing repository history are included.
+
+## Shareable player URLs
+
+- Latest version: [`player/?composition=wenn-der-abend-leise-wird`](https://informa-tiger.github.io/compositions/player/?composition=wenn-der-abend-leise-wird)
+- Explicit latest: `player/?composition=wenn-der-abend-leise-wird&version=latest`
+- Pinned version: [`player/?composition=wenn-der-abend-leise-wird&version=v002`](https://informa-tiger.github.io/compositions/player/?composition=wenn-der-abend-leise-wird&version=v002)
+- Direct JSON: `player/?score=compositions/wenn-der-abend-leise-wird/generated/v003/composition.json`
+
+`composition` is the stable folder ID. Omitting `version` means `latest`; latest is the highest published version number. A pinned version stays fixed. Selecting a catalog entry updates the URL. Unknown IDs or versions show an error rather than silently choosing another piece. If both `composition` and `score` are supplied, `composition` takes precedence. Direct JSON URLs must permit browser fetching (CORS for other origins).
