@@ -67,7 +67,7 @@ Click a voice in the player legend to mute or restore it. Cantus-firmus measure 
 
 The browser downloads one `composition.voices.mp4` containing four stereo AAC-LC tracks, encoded at 320 kb/s per voice directly from FluidSynth PCM renders. It isolates each track in memory without changing encoded samples, chunk offsets, or encoder-delay edit lists, then decodes the tracks into Web Audio buffers. All four buffers start at the same AudioContext time and offset. There are no separate running media clocks or periodic corrective seeks. Mute changes use an 8 ms gain transition. Pause, seek and speed apply to all voices together.
 
-This replaces the previous four-HTMLAudioElement implementation, whose repeated drift-correction seeks were a plausible source of audible artifacts. That cause has not been confirmed by direct listening. Automated checks verify track extraction preserves decoded PCM exactly, the transport uses identical start times, and muting never seeks. At non-default speeds, Web Audio now changes pitch along with tempo; 100% preserves the rendered pitch.
+This replaces the previous four-HTMLAudioElement implementation, whose repeated drift-correction seeks were a plausible source of audible artifacts. That cause has not been confirmed by direct listening. Automated checks verify track extraction preserves decoded PCM exactly, the transport uses identical start times, and muting never seeks. At 75% and 125%, the summed stereo signal passes through one SoundTouchJS AudioWorklet with pitch fixed at 1 and playback-rate compensation. The four source clocks remain identical. At 100%, the processor is bypassed so normal-speed audio is unchanged. Time stretching can introduce some processing coloration and a short buffering delay; it does not transpose the music. The bundled processor and corresponding sources are under MPL-2.0 in `player/vendor/`.
 
 A common mastering gain preserves authored balance and leaves headroom for every voice subset. The interactive mix can be quieter than the separately loudness-normalized full-mix MP3. The original full-mix MP3, video, individual MP3 downloads, and musical notes remain unchanged. MP3 is fetched as a fallback only if multitrack decoding fails. Loading all decoded tracks uses about 160 MB of PCM memory for this piece.
 
@@ -76,6 +76,9 @@ Build all audio with the normal build, or regenerate voice assets only:
 ```sh
 python tools/stems.py --all
 node tools/check-mixer.mjs
+node tools/check-pitch.mjs
 ```
 
 For local playback, select the composition JSON and matching `composition.voices.mp4`. JSON plus the full-mix MP3 still works, with voice controls disabled. Muting does not change the score or counterpoint verification.
+
+For a real-browser DSP check, serve the repository and open `tools/pitch-browser-test.html`. It renders four simultaneous test tones through the same summed-audio worklet architecture offline and measures their output frequencies at 75%, 100%, and 125%. Browser verification measured 220/440/660/880 Hz within 0.25 Hz at all speeds. This validates pitch preservation, not a subjective listening judgment.

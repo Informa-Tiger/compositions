@@ -1,0 +1,21 @@
+<!doctype html><meta charset="utf-8"><title>Pitch processor verification</title><pre id="result">Running offline browser audio tests…</pre><script type="module">
+try {
+ const results=[];
+ for(const rate of [.75,1,1.25]){
+  const context=new OfflineAudioContext(2,48000*3,48000);
+  await context.audioWorklet.addModule('../player/vendor/soundtouch-processor-2.1.1.js');
+  let destination=context.destination;
+  if(rate!==1){const processor=new AudioWorkletNode(context,'soundtouch-processor',{numberOfInputs:1,numberOfOutputs:1,outputChannelCount:[2],parameterData:{pitch:1,pitchSemitones:0,playbackRate:rate}});processor.connect(destination);destination=processor;}
+  for(const hz of [220,440,660,880]){
+   const buffer=context.createBuffer(2,48000*5,48000);
+   for(let c=0;c<2;c++){const samples=buffer.getChannelData(c);for(let i=0;i<samples.length;i++)samples[i]=.1*Math.sin(2*Math.PI*hz*i/48000);}
+   const source=context.createBufferSource();source.buffer=buffer;source.playbackRate.value=rate;source.connect(destination);source.start(0);
+  }
+  const rendered=await context.startRendering(),samples=rendered.getChannelData(0).slice(48000,96000);
+  function power(hz){let re=0,im=0;for(let i=0;i<samples.length;i++){const x=samples[i]*(.5-.5*Math.cos(2*Math.PI*i/samples.length)),a=2*Math.PI*hz*i/48000;re+=x*Math.cos(a);im+=x*Math.sin(a);}return re*re+im*im;}
+  const frequencies=[220,440,660,880].map(hz=>{let best=0,frequency=0;for(let f=hz-3;f<=hz+3;f+=.25){const p=power(f);if(p>best){best=p;frequency=f}}if(Math.abs(frequency-hz)>1||best<1)throw Error('Frequency mismatch: '+frequency);return frequency;});
+  results.push({speed:rate,frequencies});
+ }
+ document.querySelector('#result').textContent='PASS: '+JSON.stringify(results);
+}catch(e){document.querySelector('#result').textContent='FAIL: '+e.message;}
+</script>

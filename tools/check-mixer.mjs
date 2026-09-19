@@ -20,14 +20,29 @@ try {
 }finally{fs.rmSync(temp,{recursive:true,force:true})}
 assert.throws(()=>splitTracks(new ArrayBuffer(7)));
 class Master extends EventTarget {currentTime=0;paused=true;playbackRate=1;pause(){this.paused=true}}
+const processors=[];
+globalThis.AudioWorkletNode=class {
+ constructor(context,name,options){this.options=options;this.port={close(){}};processors.push(this)}
+ connect(target){this.target=target;return target}disconnect(){this.disconnected=true}
+};
 const created=[];
-const ctx={currentTime:10,destination:{},resume:async()=>{},createBufferSource(){const n={playbackRate:{},connect(){return this},disconnect(){},stop(){},start(...args){this.args=args}};created.push(n);return n},createGain(){return{gain:{setValueAtTime(){},linearRampToValueAtTime(){},cancelScheduledValues(){},setTargetAtTime(){}},connect(){return this},disconnect(){}}}};
+const ctx={currentTime:10,destination:{},resume:async()=>{},createBufferSource(){const n={playbackRate:{},connect(target){this.target=target;return target},disconnect(){},stop(){},start(...args){this.args=args}};created.push(n);return n},createGain(){return{gain:{setValueAtTime(){},linearRampToValueAtTime(){},cancelScheduledValues(){},setTargetAtTime(){}},connect(target){this.target=target;return target},disconnect(){}}}};
 const mixer=new VoiceMixer(new Master(),()=>{},()=>{});mixer.context=ctx;mixer.buffers=Array(4).fill({duration:100});mixer.enabled=[true,true,true,true];
 await mixer.play();assert.equal(new Set(created.map(n=>n.args[0])).size,1);assert.equal(new Set(created.map(n=>n.args[1])).size,1);
 ctx.currentTime=20;assert.equal(mixer.currentTime,9.975);
 mixer.toggle(2);assert.equal(created.length,4,'Muting must not restart or seek');
 mixer.currentTime=50;assert.equal(created.length,8);assert(created.slice(4).every(n=>n.args[1]===50));
 mixer.playbackRate=.75;assert(created.slice(-4).every(n=>n.playbackRate.value===.75));
+assert.equal(processors.length,1);
+assert.equal(processors[0].options.parameterData.pitch,1);
+assert.equal(processors[0].options.parameterData.playbackRate,.75);
+assert(created.slice(-4).every(n=>n.target.target===processors[0]),'All voices must mix through the same processor');
+mixer.playbackRate=1.25;
+assert.equal(processors.at(-1).options.parameterData.pitch,1);
+assert.equal(processors.at(-1).options.parameterData.playbackRate,1.25);
+mixer.playbackRate=1;
+assert(created.slice(-4).every(n=>n.target.target===ctx.destination),'Normal speed must bypass processing');
+assert(processors.every(p=>p.disconnected));
 mixer.pause();const paused=mixer.currentTime;ctx.currentTime+=10;assert.equal(mixer.currentTime,paused);
 mixer.clear();assert(!mixer.ready);assert(!mixer.running);
 console.log('MP4 track extraction is sample-identical; shared clock, mute, seek, rate and pause checks passed.');

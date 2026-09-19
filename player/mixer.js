@@ -23,6 +23,8 @@ export class VoiceMixer extends EventTarget {
  async loadMP4(data){
   const epoch=this.epoch;
   this.context??=new AudioContext({sampleRate:48000});
+  this.workletReady??=this.context.audioWorklet.addModule(new URL('./vendor/soundtouch-processor-2.1.1.js',import.meta.url));
+  await this.workletReady;
   const buffers=await Promise.all(splitTracks(data).map(b=>this.context.decodeAudioData(b)));
   if(epoch!==this.epoch)return false;
   if(buffers.some(b=>b.length!==buffers[0].length||b.numberOfChannels!==2))throw Error('Voice tracks have unequal lengths or channel layouts');
@@ -35,16 +37,27 @@ export class VoiceMixer extends EventTarget {
   if(this.running)this.position=this.currentTime;
   this.running=false;
   for(const node of this.nodes){node.onended=null;try{node.stop()}catch{}node.disconnect()}
+  if(this.processor){this.processor.disconnect();this.processor.port.close();this.processor=null;}
   for(const gain of this.gains)gain.disconnect();this.nodes=[];this.gains=[];
  }
  start(){
   if(!this.ready||this.running)return;
   if(this.position>=this.duration)this.position=0;
   this.started=this.context.currentTime+.025;this.running=true;
+  // Sum the selected voices before a single pitch-compensating processor.
+  // At normal speed bypass DSP entirely, preserving the decoded audio.
+  let destination=this.context.destination;
+  if(this.rate!==1){
+   this.processor=new AudioWorkletNode(this.context,'soundtouch-processor',{
+    numberOfInputs:1,numberOfOutputs:1,outputChannelCount:[2],
+    parameterData:{pitch:1,pitchSemitones:0,playbackRate:this.rate}
+   });
+   this.processor.connect(destination);destination=this.processor;
+  }
   this.nodes=this.buffers.map((buffer,i)=>{
    const node=this.context.createBufferSource(),gain=this.context.createGain();node.buffer=buffer;node.playbackRate.value=this.rate;
    gain.gain.setValueAtTime(0,this.started);gain.gain.linearRampToValueAtTime(this.enabled[i]?1:0,this.started+.008);
-   node.connect(gain).connect(this.context.destination);this.gains.push(gain);node.start(this.started,this.position);return node;
+   node.connect(gain).connect(destination);this.gains.push(gain);node.start(this.started,this.position);return node;
   });
   this.nodes[0].onended=()=>{this.stop();this.position=this.duration;this.dispatchEvent(new Event('pause'))};
  }

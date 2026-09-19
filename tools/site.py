@@ -12,7 +12,7 @@ for source in sorted(ROOT.glob('compositions/*/versions/*.json')):
 for f in ['index.html','catalog.json']:shutil.copy2(ROOT/f,site/f)
 shutil.copytree(ROOT/'player',site/'player',dirs_exist_ok=True)
 player_page=site/'player/index.html'
-revision=hashlib.sha256(b''.join(p.read_bytes() for p in sorted((ROOT/'player').glob('*')) if p.is_file())).hexdigest()[:12]
+revision=hashlib.sha256(b''.join(p.read_bytes() for p in sorted((ROOT/'player').rglob('*')) if p.is_file())).hexdigest()[:12]
 for script in (site/'player').glob('*.js'):
  text=script.read_text()
  for module in ['mixer.js','source.js','mp4.js']:text=text.replace(f"'./{module}'",f"'./{module}?v={revision}'")
