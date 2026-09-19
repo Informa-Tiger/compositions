@@ -1,0 +1,32 @@
+{
+  "sourceDataSha256": "dd6e13d10a055e077306dd2f942205ce72fd2796e0b7d67798482ed7057fd1db",
+  "duration": 104.304,
+  "gainDB": 8.020338418299138,
+  "mastering": "Common gain across all voices; summed peak bounds leave 3 dB headroom. No independent normalization.",
+  "voices": [
+    {
+      "voice": 0,
+      "name": "Soprano",
+      "file": "composition.voice-1.mp3",
+      "sha256": "2dca777f4a295bcea5c7e9da8b2be95a37d3ddf656dc690be39c002e8e091a48"
+    },
+    {
+      "voice": 1,
+      "name": "Alto",
+      "file": "composition.voice-2.mp3",
+      "sha256": "2da2cf5349c4bff197b435230fb05368aabab93d44d6c67e481e61527d775b4b"
+    },
+    {
+      "voice": 2,
+      "name": "Tenor",
+      "file": "composition.voice-3.mp3",
+      "sha256": "988f92525ffa68671279300c224cec33ff58f3b6acfbd7aa13a64794cc476405"
+    },
+    {
+      "voice": 3,
+      "name": "Bass",
+      "file": "composition.voice-4.mp3",
+      "sha256": "77352939d2eb5c79c9150093bb0aa9cb7d70c1f7e190bc981d57d19437b30966"
+    }
+  ]
+}

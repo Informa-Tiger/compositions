@@ -137,6 +137,7 @@ def build(source,media=True,video=True):
         af=f'loudnorm=I={cfg["loudnessLUFS"]}:TP={cfg["truePeakDB"]}:LRA={cfg["loudnessRange"]},afade=t=out:st={p["duration"]+cfg["fadeDelaySeconds"]}:d={cfg["fadeSeconds"]}'
         run(['ffmpeg','-v','error','-y','-i',raw,'-af',af,'-ar',cfg['sampleRate'],'-codec:a','libmp3lame','-b:a',cfg['mp3Bitrate'],out/'composition.mp3'])
         raw.unlink()
+        run([sys.executable,ROOT/'tools/stems.py',out/'composition.json'])
         run([sys.executable,ROOT/'tools/video.py',out/'composition.json',*(['--video'] if video else [])])
     run([sys.executable,ROOT/'tools/verify.py',out/'composition.json'])
     versions={}

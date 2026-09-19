@@ -60,3 +60,17 @@ Matt's supplied toolkit is included unchanged under the composition's `tools/mat
 - Direct JSON: `player/?score=compositions/wenn-der-abend-leise-wird/generated/v003/composition.json`
 
 `composition` is the stable folder ID. Omitting `version` means `latest`; latest is the highest published version number. A pinned version stays fixed. Selecting a catalog entry updates the URL. Unknown IDs or versions show an error rather than silently choosing another piece. If both `composition` and `score` are supplied, `composition` takes precedence. Direct JSON URLs must permit browser fetching (CORS for other origins).
+
+## Hear individual voices
+
+Click a voice in the player legend to mute or restore it. Each label keeps its cantus-firmus measure range; muted notes dim but remain visible. All four can be muted. Voice tracks follow play/pause, seeking and playback speed, with periodic drift correction against the common transport clock. Speed changes use the browser's pitch-preserving audio playback.
+
+Each generated version includes `composition.voice-1.mp3` through `composition.voice-4.mp3` and `composition.stems.json`. These are isolated renders from the corresponding performance MIDI tracks, with the same tempo, pan, instrument and articulation. A shared gain keeps their relative balance and leaves mix headroom; stems are not individually loudness-normalized. Interactive stem playback can be quieter than the separately mastered full-mix MP3. The downloadable full mix and video are unchanged.
+
+The normal full build creates the voice tracks automatically. To add or rebuild only the stems:
+
+```sh
+python tools/stems.py --all
+```
+
+For local-file voice controls, select the source JSON, the full-mix MP3 and all four voice MP3s. Loading only JSON + the full mix still works, with voice buttons disabled because individual voices cannot be removed from an already mixed recording. Individual voice MP3 links appear in the player after loading. Muting a voice is a listening aid; it does not change the composition, exported score, or verification results.

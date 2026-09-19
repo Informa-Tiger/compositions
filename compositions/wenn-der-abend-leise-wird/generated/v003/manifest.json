@@ -27,7 +27,12 @@
     "matt-audit.json": "c99c37d6a4448683ebdc832403ccf1c8123462c9f48278c79064cbddc8d51578",
     "matt-input.json": "f7bec37d0d4344228172535b6dfb5c5087ef30ec6c6f7e9896810cfd0cdf7073",
     "verification.json": "7e82b10fcf20fe0361e869fb482d935af0ff471ddd0aa6d8b21ca254beae84b0",
-    "lean-verification.txt": "bc5eb8c4a86c4a73b4f433b9b8fb03a17c3bc888c07a36a4daf6f92af3da656f"
+    "lean-verification.txt": "bc5eb8c4a86c4a73b4f433b9b8fb03a17c3bc888c07a36a4daf6f92af3da656f",
+    "composition.stems.json": "01dead9d5873e6b211104be90d5d07d11c04f353f48c38f0752ed2530099d93b",
+    "composition.voice-1.mp3": "a550bc57efee1d9c3f5d8684714d8bdc0c8926592c2ab1936071b6e02eed7fb2",
+    "composition.voice-2.mp3": "45c11a5eefaeed09909ef538c270a8ca4ca1a1207e318d9d06325c5edb1b7219",
+    "composition.voice-3.mp3": "3adfbf1d9fa2e9967fa0efa25ee887aa1dd6176385196da639731bc81e58afd1",
+    "composition.voice-4.mp3": "34cb9c56318596d025fdd008831752202a4ab092bde8af07cb1136d2d194c705"
   },
   "sourceDataSha256": "c6c92374fae86d98b281816c55eacf86b5326c441e74e85d49b2e611ce144bfc",
   "mediaSourceDataSha256": "c6c92374fae86d98b281816c55eacf86b5326c441e74e85d49b2e611ce144bfc",
