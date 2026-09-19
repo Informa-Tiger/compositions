@@ -13,6 +13,7 @@ for source in sorted(ROOT.glob('compositions/*/versions/*.json')):
  stems=read(out/'composition.stems.json')
  assert stems['sourceDataSha256']==expected_hash,'Rebuild voice tracks for changed source'
  assert [v['voice'] for v in stems['voices']]==list(range(4))
+ assert digest(out/stems['container']['file'])==stems['container']['sha256']
  for voice in stems['voices']:assert digest(out/voice['file'])==voice['sha256']
  for name,sha in manifest['artifacts'].items():assert digest(out/name)==sha,(out,name)
  subprocess.run([sys.executable,str(ROOT/'tools/verify.py'),str(out/'composition.json')],check=True)

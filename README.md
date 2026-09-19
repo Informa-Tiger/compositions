@@ -63,14 +63,19 @@ Matt's supplied toolkit is included unchanged under the composition's `tools/mat
 
 ## Hear individual voices
 
-Click a voice in the player legend to mute or restore it. Each label keeps its cantus-firmus measure range; muted notes dim but remain visible. All four can be muted. Voice tracks follow play/pause, seeking and playback speed, with periodic drift correction against the common transport clock. Speed changes use the browser's pitch-preserving audio playback.
+Click a voice in the player legend to mute or restore it. Cantus-firmus measure ranges remain visible and muted notes dim. All four voices may be muted.
 
-Each generated version includes `composition.voice-1.mp3` through `composition.voice-4.mp3` and `composition.stems.json`. These are isolated renders from the corresponding performance MIDI tracks, with the same tempo, pan, instrument and articulation. A shared gain keeps their relative balance and leaves mix headroom; stems are not individually loudness-normalized. Interactive stem playback can be quieter than the separately mastered full-mix MP3. The downloadable full mix and video are unchanged.
+The browser downloads one `composition.voices.mp4` containing four stereo AAC-LC tracks, encoded at 320 kb/s per voice directly from FluidSynth PCM renders. It isolates each track in memory without changing encoded samples, chunk offsets, or encoder-delay edit lists, then decodes the tracks into Web Audio buffers. All four buffers start at the same AudioContext time and offset. There are no separate running media clocks or periodic corrective seeks. Mute changes use an 8 ms gain transition. Pause, seek and speed apply to all voices together.
 
-The normal full build creates the voice tracks automatically. To add or rebuild only the stems:
+This replaces the previous four-HTMLAudioElement implementation, whose repeated drift-correction seeks were a plausible source of audible artifacts. That cause has not been confirmed by direct listening. Automated checks verify track extraction preserves decoded PCM exactly, the transport uses identical start times, and muting never seeks. At non-default speeds, Web Audio now changes pitch along with tempo; 100% preserves the rendered pitch.
+
+A common mastering gain preserves authored balance and leaves headroom for every voice subset. The interactive mix can be quieter than the separately loudness-normalized full-mix MP3. The original full-mix MP3, video, individual MP3 downloads, and musical notes remain unchanged. MP3 is fetched as a fallback only if multitrack decoding fails. Loading all decoded tracks uses about 160 MB of PCM memory for this piece.
+
+Build all audio with the normal build, or regenerate voice assets only:
 
 ```sh
 python tools/stems.py --all
+node tools/check-mixer.mjs
 ```
 
-For local-file voice controls, select the source JSON, the full-mix MP3 and all four voice MP3s. Loading only JSON + the full mix still works, with voice buttons disabled because individual voices cannot be removed from an already mixed recording. Individual voice MP3 links appear in the player after loading. Muting a voice is a listening aid; it does not change the composition, exported score, or verification results.
+For local playback, select the composition JSON and matching `composition.voices.mp4`. JSON plus the full-mix MP3 still works, with voice controls disabled. Muting does not change the score or counterpoint verification.

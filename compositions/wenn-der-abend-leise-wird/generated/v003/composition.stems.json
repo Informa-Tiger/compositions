@@ -28,5 +28,17 @@
       "file": "composition.voice-4.mp3",
       "sha256": "34cb9c56318596d025fdd008831752202a4ab092bde8af07cb1136d2d194c705"
     }
-  ]
+  ],
+  "container": {
+    "file": "composition.voices.mp4",
+    "sha256": "8e4c92792fc9f8f492bdd51452221fbdfe8ab79b08b8b75ad9b6fd878fda45f1",
+    "codec": "AAC-LC",
+    "bitratePerVoice": 320000,
+    "trackOrder": [
+      "Soprano",
+      "Alto",
+      "Tenor",
+      "Bass"
+    ]
+  }
 }

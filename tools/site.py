@@ -15,7 +15,7 @@ player_page=site/'player/index.html'
 revision=hashlib.sha256(b''.join(p.read_bytes() for p in sorted((ROOT/'player').glob('*')) if p.is_file())).hexdigest()[:12]
 for script in (site/'player').glob('*.js'):
  text=script.read_text()
- for module in ['mixer.js','source.js']:text=text.replace(f"'./{module}'",f"'./{module}?v={revision}'")
+ for module in ['mixer.js','source.js','mp4.js']:text=text.replace(f"'./{module}'",f"'./{module}?v={revision}'")
  script.write_text(text)
 player_page.write_text(player_page.read_text().replace('src="player.js"',f'src="player.js?v={revision}"').replace('href="player.css"',f'href="player.css?v={revision}"'))
 for comp in (ROOT/'compositions').iterdir():

@@ -1,0 +1,17 @@
+{
+  "v001": {
+    "samplesPerChannel": 5007360,
+    "subsetsChecked": 15,
+    "worstPeakDBFS": -6.585
+  },
+  "v002": {
+    "samplesPerChannel": 5007360,
+    "subsetsChecked": 15,
+    "worstPeakDBFS": -6.585
+  },
+  "v003": {
+    "samplesPerChannel": 5007360,
+    "subsetsChecked": 15,
+    "worstPeakDBFS": -6.582
+  }
+}

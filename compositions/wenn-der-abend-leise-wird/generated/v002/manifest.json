@@ -20,11 +20,12 @@
     "matt-audit.json": "facc6f8d2a36fbdd6e2e2f43b03aed786a66040f665795f78503fe8913fe07aa",
     "matt-input.json": "6a9669d1152dd703d240d87fb46db5276765b2ab86205d49aa9fe90aeb94722f",
     "verification.json": "307dd6be7f4574f5547182be4f12242e2c29f77239fffa19ab0d706ace7d70d3",
-    "composition.stems.json": "c6ff05bf628f4773511775c3e51f85020fc72ce3e2439e1070a416a7bf3973e2",
+    "composition.stems.json": "09bc55a2f3382d784dde4c3857323dcf895c70391caf5ff40081e5c7cf0aa12d",
     "composition.voice-1.mp3": "7a5ca9b55427efaa88007458fa845b1f080939e70240d598b3830a511b678757",
     "composition.voice-2.mp3": "064855718161aed67bd1dfd1302fff06df0fb5e272bcdc08ec3f661ce2a63963",
     "composition.voice-3.mp3": "d19095114e8016ea6daee29a8e79d85a9987fa8e9e49da70c5ab040d57192a1a",
-    "composition.voice-4.mp3": "275d581786827623cc9a2fc80b1f473f6f15921f471230c5ffcc24f9b41695d7"
+    "composition.voice-4.mp3": "275d581786827623cc9a2fc80b1f473f6f15921f471230c5ffcc24f9b41695d7",
+    "composition.voices.mp4": "a035980eb93903aa1160d48eec0550dd20d5eaa6c9118c123caffc84c04c369b"
   },
   "sourceDataSha256": "a1416b1f488106ec0e42717ce1611691d0663c0e500d65c6a72da29df65e3e8c",
   "mediaSourceDataSha256": "a1416b1f488106ec0e42717ce1611691d0663c0e500d65c6a72da29df65e3e8c",

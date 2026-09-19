@@ -20,11 +20,12 @@
     "matt-audit.json": "bb4c02ac8871ae3818b4b8f650480636880f9094e496930caa5078aeeca5deee",
     "matt-input.json": "c98c698d8090cd135ec1ecb74b157eed3584734cc595eed6d86d578759a21fd1",
     "verification.json": "cba81921db726bac68a7d9e667b5cec29552820b180501093f819e5abbb86b86",
-    "composition.stems.json": "49dc35ef0ee54f1ed03e353a9d48986802d636dfe466200da636ca0fdc6f6fe1",
+    "composition.stems.json": "de81ad91c7d546920f960594009a8af8cda770f1274838821501b465cb7869e9",
     "composition.voice-1.mp3": "2dca777f4a295bcea5c7e9da8b2be95a37d3ddf656dc690be39c002e8e091a48",
     "composition.voice-2.mp3": "2da2cf5349c4bff197b435230fb05368aabab93d44d6c67e481e61527d775b4b",
     "composition.voice-3.mp3": "988f92525ffa68671279300c224cec33ff58f3b6acfbd7aa13a64794cc476405",
-    "composition.voice-4.mp3": "77352939d2eb5c79c9150093bb0aa9cb7d70c1f7e190bc981d57d19437b30966"
+    "composition.voice-4.mp3": "77352939d2eb5c79c9150093bb0aa9cb7d70c1f7e190bc981d57d19437b30966",
+    "composition.voices.mp4": "de5fd16582c8a175baa8f5a8de7da04358eca596babf468ed73bee0f53b77138"
   },
   "sourceDataSha256": "dd6e13d10a055e077306dd2f942205ce72fd2796e0b7d67798482ed7057fd1db",
   "mediaSourceDataSha256": "dd6e13d10a055e077306dd2f942205ce72fd2796e0b7d67798482ed7057fd1db",

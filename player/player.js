@@ -1,20 +1,30 @@
 import {derive} from './source.js';
 import {VoiceMixer} from './mixer.js';
 let D=null,span=16,scrubbing=false,objectURL=null,loadGeneration=0;
-const $=s=>document.querySelector(s),A=$('#audio'),C=$('#roll'),O=$('#overview'),seek=$('#seek');
+const $=s=>document.querySelector(s),media=$('#audio'),C=$('#roll'),O=$('#overview'),seek=$('#seek');
 const status=t=>$('#loadStatus').textContent=t;
-const mixer=new VoiceMixer(A,()=>{
+const mixer=new VoiceMixer(media,()=>{
  document.querySelectorAll('#legend .voice').forEach((button,i)=>{const on=!mixer.ready||mixer.enabled[i];button.disabled=!mixer.ready;button.setAttribute('aria-pressed',String(on));button.classList.toggle('muted',!on);const state=button.querySelector('.voice-state');if(state)state.textContent=mixer.ready?(on?'On · click to mute':'Muted · click to hear'):'Voice tracks unavailable';});
 },()=>status('Voice tracks unavailable; playing the full mix.'));
+const A=mixer;
 async function loadStems(url,generation){
- try{const response=await fetch(url.href.replace(/\.json(?:\?.*)?$/,'.stems.json'));if(!response.ok)throw Error('No stems');const info=await response.json();if(info.voices.length!==4)throw Error('Expected four stems');const blobs=await Promise.all(info.voices.map(async v=>{const r=await fetch(new URL(v.file,url));if(!r.ok)throw Error('Missing stem');return r.blob()}));if(generation===loadGeneration){mixer.load(blobs);for(const v of info.voices){const a=document.createElement('a');a.href=new URL(v.file,url).href;a.textContent=v.name+' MP3';$('#downloads').append(a)}status('Ready. Click a voice in the legend to mute or restore it.')}}catch(e){if(generation===loadGeneration)status('Full mix ready. Individual voice tracks are unavailable for this file.')}
+ const response=await fetch(url.href.replace(/\.json(?:\?.*)?$/,'.stems.json'));
+ if(!response.ok)throw Error('Missing voice manifest');
+ const info=await response.json();
+ const r=await fetch(new URL(info.container.file,url));
+ if(!r.ok)throw Error('Missing multitrack MP4');
+ const data=await r.arrayBuffer();
+ if(generation!==loadGeneration)return;
+ if(!await mixer.loadMP4(data))return;
+ const a=document.createElement('a');a.href=new URL(info.container.file,url).href;a.textContent='Multitrack MP4';$('#downloads').append(a);
+ status('Ready. Click a voice in the legend to mute or restore it.');
 }
 
-function jump(t){if(D&&Number.isFinite(t)&&A.src)A.currentTime=Math.max(0,Math.min(Number.isFinite(A.duration)?A.duration:D.duration,t))}
+function jump(t){if(D&&Number.isFinite(t)&&(mixer.ready||A.src))A.currentTime=Math.max(0,Math.min(Number.isFinite(A.duration)?A.duration:D.duration,t))}
 A.addEventListener('loadedmetadata',()=>seek.max=A.duration);
 A.addEventListener('error',()=>status('Audio could not be loaded. For local playback, select the matching MP3 too.'));
 A.addEventListener('play',()=>$('#play').textContent='Pause');A.addEventListener('pause',()=>$('#play').textContent='Play');
-async function play(){if(!D||!A.src)return;try{await A.play()}catch(e){status('Playback unavailable: '+e.message)}}
+async function play(){if(!D||(!mixer.ready&&!A.src))return;try{await A.play()}catch(e){status('Playback unavailable: '+e.message)}}
 $('#play').onclick=()=>A.paused?play():A.pause();$('#restart').onclick=()=>{jump(0);play()};
 $('#rate').onchange=e=>A.playbackRate=+e.target.value;$('#zoom').onchange=e=>span=+e.target.value;
 seek.onpointerdown=()=>scrubbing=true;window.addEventListener('pointerup',()=>scrubbing=false);seek.onblur=()=>scrubbing=false;seek.oninput=()=>jump(+seek.value);
@@ -26,15 +36,20 @@ function display(source){D=derive(source);document.title=D.title+' · '+source.v
  D.voices.forEach((name,i)=>{const div=document.createElement('button');div.type='button';div.className='voice';div.disabled=true;div.setAttribute('aria-pressed','true');div.onclick=()=>mixer.toggle(i);div.style.setProperty('--c',D.colors[i]);const strong=document.createElement('strong');strong.textContent=name;const label=document.createElement('span');const spans=D.cantus.filter(c=>c.voice===i);label.textContent=spans.length?spans.map(c=>{const beats=Number(D.meter.split('/')[0])*4/Number(D.meter.split('/')[1]);const position=b=>`${Math.floor(b/beats)+1}.${b%beats+1}`;return `${c.label} · mm. ${position(c.start)}–${position(Math.ceil(c.end)-1)}`}).join('; '):(name==='Bass'?'Foundation':'Countervoice');const state=document.createElement('span');state.className='voice-state';state.textContent='Loading voice tracks…';div.append(strong,label,state);$('#legend').append(div)});
  D.sections.forEach(s=>{const b=document.createElement('button');b.textContent=s.name;b.onclick=()=>jump(s.time);$('#chapters').append(b)});
 }
-async function loadURL(path){const generation=++loadGeneration;clearAudio();D=null;status('Loading…');try{const url=new URL(path,new URL('../',location.href));const resp=await fetch(url);if(!resp.ok)throw Error('HTTP '+resp.status);const source=await resp.json();if(generation!==loadGeneration)return;display(source);status('Loading audio…');const audioResponse=await fetch(url.href.replace(/\.json(?:\?.*)?$/,'.mp3'));if(!audioResponse.ok)throw Error('Audio HTTP '+audioResponse.status);const audioBlob=await audioResponse.blob();if(generation!==loadGeneration)return;objectURL=URL.createObjectURL(audioBlob);A.src=objectURL;A.load();for(const [ext,label] of [['pdf','Score PDF'],['musicxml','MusicXML'],['mid','MIDI'],['mp3','MP3'],['mp4','Video'],['json','Source JSON']]){const a=document.createElement('a');a.href=url.href.replace(/\.json(?:\?.*)?$/,'.'+ext);a.textContent=label;$('#downloads').append(a)}status('Full mix ready. Loading voice controls…');loadStems(url,generation)}catch(e){if(generation===loadGeneration)status('Cannot load composition: '+e.message)}}
+async function loadURL(path){const generation=++loadGeneration;clearAudio();D=null;status('Loading…');try{const url=new URL(path,new URL('../',location.href));const resp=await fetch(url);if(!resp.ok)throw Error('HTTP '+resp.status);const source=await resp.json();if(generation!==loadGeneration)return;display(source);status('Loading multitrack audio…');for(const [ext,label] of [['pdf','Score PDF'],['musicxml','MusicXML'],['mid','MIDI'],['mp3','MP3'],['mp4','Video'],['json','Source JSON']]){const a=document.createElement('a');a.href=url.href.replace(/\.json(?:\?.*)?$/,'.'+ext);a.textContent=label;$('#downloads').append(a)}try{await loadStems(url,generation)}catch(error){
+ if(generation!==loadGeneration)return;
+ const response=await fetch(url.href.replace(/\.json(?:\?.*)?$/,'.mp3'));
+ if(!response.ok)throw Error('Full mix unavailable');
+ const blob=await response.blob();if(generation!==loadGeneration)return;
+ objectURL=URL.createObjectURL(blob);A.src=objectURL;A.load();status('Multitrack audio unavailable; full mix ready.');
+ }}catch(e){if(generation===loadGeneration)status('Cannot load composition: '+e.message)}}
 $('#files').onchange=async e=>{
  const generation=++loadGeneration,files=[...e.target.files],json=files.find(f=>f.name.endsWith('.json')&&!f.name.endsWith('.stems.json')),mp3=files.find(f=>f.name.endsWith('.mp3')&&!/\.voice-\d+\.mp3$/.test(f.name));
  try{
-  if(json){clearAudio();D=null;display(JSON.parse(await json.text()));$('#catalog').value='';const u=new URL(location.href);for(const key of ['score','composition','version'])u.searchParams.delete(key);history.replaceState({},'',u);status('Score loaded. Select its matching MP3 and optional four voice MP3s.');}
-  if(mp3){if(!D)throw Error('Select a composition JSON first.');clearAudio();objectURL=URL.createObjectURL(mp3);A.src=objectURL;A.load();status('Full mix ready. Select all four voice MP3s to enable voice controls.');}
-  const voices=[1,2,3,4].map(i=>files.find(f=>f.name.endsWith('.voice-'+i+'.mp3')));
-  if(voices.every(Boolean)){if(!D||!A.src)throw Error('Select the source JSON and full mix MP3 too.');mixer.load(voices);status('Local voice tracks ready. Click a voice to mute or restore it.');}
-  else if(voices.some(Boolean))status('Select all four voice MP3s together to enable voice controls.');
+  if(json){clearAudio();D=null;display(JSON.parse(await json.text()));$('#catalog').value='';const u=new URL(location.href);for(const key of ['score','composition','version'])u.searchParams.delete(key);history.replaceState({},'',u);status('Score loaded. Select its matching .voices.mp4 (or full-mix MP3).');}
+  if(mp3){if(!D)throw Error('Select a composition JSON first.');clearAudio();objectURL=URL.createObjectURL(mp3);A.src=objectURL;A.load();status('Full mix ready. Select the multitrack MP4 to enable voice controls.');}
+  const multitrack=files.find(f=>f.name.endsWith('.voices.mp4'));
+  if(multitrack){if(!D)throw Error('Select the composition JSON too.');await mixer.loadMP4(await multitrack.arrayBuffer());status('Local multitrack audio ready. Click a voice to mute or restore it.');}
  }catch(err){status(err.message)}
 };
 try{

@@ -26,12 +26,18 @@ def render(source):
    name=f'composition.voice-{i+1}.mp3';target=out/name
    af=f'volume={gain}dB,afade=t=out:st={doc["playback"]["duration"]+cfg["fadeDelaySeconds"]}:d={cfg["fadeSeconds"]},apad,atrim=duration={duration}'
    call(['ffmpeg','-v','error','-y','-i',wav,'-af',af,'-ar',cfg['sampleRate'],'-codec:a','libmp3lame','-b:a',cfg['mp3Bitrate'],target]);files.append({'voice':i,'name':doc['voices'][i]['name'],'file':name,'sha256':sha(target)})
+  # Encode directly from PCM, never transcode the downloadable MP3 stems.
+  container=out/'composition.voices.mp4'
+  args=['ffmpeg','-v','error','-y']
+  for wav in waves:args+=['-i',wav]
+  for i in range(4):args+=['-map',f'{i}:a:0',f'-filter:a:{i}',af,f'-metadata:s:a:{i}',f'title={doc["voices"][i]["name"]}']
+  args+=['-c:a','aac','-b:a','320k','-ar',str(cfg['sampleRate']),'-movflags','+faststart',container];call(args)
   canonical={k:v for k,v in doc.items() if k!='playback'}
-  info={'sourceDataSha256':hashlib.sha256(json.dumps(canonical,sort_keys=True).encode()).hexdigest(),'duration':duration,'gainDB':gain,'mastering':'Common gain across all voices; summed peak bounds leave 3 dB headroom. No independent normalization.','voices':files}
+  info={'sourceDataSha256':hashlib.sha256(json.dumps(canonical,sort_keys=True).encode()).hexdigest(),'duration':duration,'gainDB':gain,'mastering':'Common gain across all voices; summed peak bounds leave 3 dB headroom. No independent normalization.','voices':files,'container':{'file':container.name,'sha256':sha(container),'codec':'AAC-LC','bitratePerVoice':320000,'trackOrder':[v['name'] for v in doc['voices']]}}
   (out/'composition.stems.json').write_text(json.dumps(info,indent=2)+'\n')
  if (out/'manifest.json').exists():
   p=out/'manifest.json';m=json.loads(p.read_text())
-  for f in [out/'composition.stems.json',*[out/v['file'] for v in files]]:m['artifacts'][f.name]=sha(f)
+  for f in [container,out/'composition.stems.json',*[out/v['file'] for v in files]]:m['artifacts'][f.name]=sha(f)
   p.write_text(json.dumps(m,indent=2)+'\n')
  print('Rendered four synchronized stems:',doc['version'],flush=True)
 if __name__=='__main__':
